@@ -1,0 +1,55 @@
+{
+  "validated_utc": "2026-09-22T08:14:26.846684+00:00",
+  "top_level": [
+    "Codes",
+    "Paper",
+    "Reports",
+    "_Data"
+  ],
+  "data_entries": [
+    ".gitignore",
+    "README.md"
+  ],
+  "experimental_artifacts_transferred": false,
+  "source_project_mutated_by_this_task": false,
+  "paper_source_assets_compared": 89,
+  "paper_live_source_differences_at_final_check": [],
+  "paper_compilation": {
+    "success": true,
+    "pages": 39,
+    "log": "paper-build.log",
+    "bytes": 1184591
+  },
+  "tests": {
+    "passed": 317,
+    "skipped": 1,
+    "duration_seconds": 55.95,
+    "log": "final-tests.txt",
+    "gpu_enabled": false
+  },
+  "layers": {
+    "modules": 92,
+    "passed": true
+  },
+  "static": {
+    "python_files_parsed": 168,
+    "missing_balds_imports": [],
+    "broken_report_links": []
+  },
+  "experiment_reports": {
+    "documents": 10,
+    "bash_blocks_syntax_checked": 30,
+    "python_blocks_ast_checked": 8,
+    "active_paper_labels": 49
+  },
+  "minimal_wheel_without_torch": {
+    "passed": true,
+    "record": "public-install-validation.json"
+  },
+  "default_migration": {
+    "files": 16408,
+    "bytes": 180010276460,
+    "executed": false
+  },
+  "validation_limit": "CPU code/protocol and packaging verification; no paper-scale model training, scoring, BA fit or result acceptance."
+}

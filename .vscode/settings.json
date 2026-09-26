@@ -1,0 +1,26 @@
+{
+  "latex-workshop.latex.autoBuild.run": "onSave",
+  "latex-workshop.latex.recipe.default": "first",
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "latexmk (Paper)",
+      "tools": ["latexmk-paper"]
+    }
+  ],
+  "latex-workshop.latex.tools": [
+    {
+      "name": "latexmk-paper",
+      "command": "latexmk",
+      "cwd": "%DIR%",
+      "args": [
+        "-cd",
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "-pdf",
+        "-outdir=%OUTDIR%",
+        "%DOC%"
+      ]
+    }
+  ]
+}

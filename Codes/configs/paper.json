@@ -1,0 +1,20 @@
+{
+  "rule": "snr_zero_mean_gaussian_v1",
+  "zetas": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "primary_zeta": 3,
+  "datasets": [
+    "cifar2_5k",
+    "cifar10_v2",
+    "cifar2_das",
+    "artbench2_256"
+  ],
+  "source_manifests": [
+    "results/snr_lds_20260925/a3/inputs/benchmark_manifest.json"
+  ],
+  "utility_table": "results/lds_nextwave_20260920/j3/a1/e2/e2_per_query.tsv"
+}

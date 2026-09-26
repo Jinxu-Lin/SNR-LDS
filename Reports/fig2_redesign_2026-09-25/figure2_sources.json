@@ -1,0 +1,12 @@
+{
+  "source": "/path/to/BA-LDS/Reports/fig2_redesign_2026-09-25/abs_head_readouts.json",
+  "hard_truncation": "absolute pre-square head; linear readout except native squared DAS",
+  "power": "sign-preserving power of pre-square scores for all methods",
+  "table": "same absolute pre-square head for linear and ordinary-squared readouts",
+  "power_p1_x100": {
+    "fmas_raw": 39.37464896214895,
+    "ekfac_if": 38.46920024420024,
+    "dtrak_T100": 39.22193223443223,
+    "das_T100": 38.412851037851034
+  }
+}

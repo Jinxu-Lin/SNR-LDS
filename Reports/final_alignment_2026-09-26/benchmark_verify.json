@@ -1,0 +1,33 @@
+{
+  "rule": "snr_zero_mean_gaussian_v1",
+  "verdict": "pass",
+  "verified_queries": 24300,
+  "missing": [
+    {
+      "panel_id": "cifar2_das_s42_gen",
+      "method": "tracincp_T100",
+      "reason": "missing score input"
+    },
+    {
+      "panel_id": "cifar2_das_s42_gen",
+      "method": "gas_T100",
+      "reason": "missing score input"
+    },
+    {
+      "panel_id": "cifar2_das_s42_gen",
+      "method": "journey_trak_T100",
+      "reason": "missing score input"
+    },
+    {
+      "panel_id": "cifar2_das_s42_val",
+      "method": "tracincp_T100",
+      "reason": "missing score input"
+    },
+    {
+      "panel_id": "cifar2_das_s42_val",
+      "method": "gas_T100",
+      "reason": "missing score input"
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,982 @@
+{
+  "entry": "Paper/ICLR/iclr2027_conference.tex",
+  "snapshot_date": "2026-09-22",
+  "files": [
+    {
+      "path": "Paper/ICLR/math_commands.tex",
+      "labels": [],
+      "inputs": []
+    },
+    {
+      "path": "Paper/ICLR/Sections/00_Abstract.tex",
+      "labels": [],
+      "inputs": []
+    },
+    {
+      "path": "Paper/ICLR/Sections/01_Introduction.tex",
+      "labels": [
+        {
+          "label": "sec:introduction",
+          "line": 2
+        },
+        {
+          "label": "main:appendix-return-1",
+          "line": 25
+        }
+      ],
+      "inputs": []
+    },
+    {
+      "path": "Paper/ICLR/Sections/02_RelatedWorks.tex",
+      "labels": [],
+      "inputs": []
+    },
+    {
+      "path": "Paper/ICLR/Sections/03_Preliminary.tex",
+      "labels": [
+        {
+          "label": "sec:preliminaries",
+          "line": 2
+        },
+        {
+          "label": "sec:flow-matching",
+          "line": 4
+        },
+        {
+          "label": "eq:fm-loss",
+          "line": 16
+        },
+        {
+          "label": "sec:tda-if",
+          "line": 21
+        },
+        {
+          "label": "sec:fmas",
+          "line": 22
+        },
+        {
+          "label": "eq:loo-target",
+          "line": 31
+        },
+        {
+          "label": "main:appendix-return-2",
+          "line": 38
+        },
+        {
+          "label": "eq:if-score",
+          "line": 43
+        },
+        {
+          "label": "eq:fmas-score",
+          "line": 54
+        },
+        {
+          "label": "sec:lds",
+          "line": 67
+        },
+        {
+          "label": "eq:lds-prediction",
+          "line": 74
+        },
+        {
+          "label": "eq:lds-response",
+          "line": 82
+        },
+        {
+          "label": "eq:lds",
+          "line": 92
+        },
+        {
+          "label": "main:appendix-return-3",
+          "line": 99
+        }
+      ],
+      "inputs": []
+    },
+    {
+      "path": "Paper/ICLR/Figures/section31/magnitude-head-table.tex",
+      "labels": [],
+      "inputs": []
+    },
+    {
+      "path": "Paper/ICLR/Figures/section31/repeatability.tex",
+      "labels": [],
+      "inputs": []
+    },
+    {
+      "path": "Paper/ICLR/Figures/section31/overview.tex",
+      "labels": [
+        {
+          "label": "fig:mechanism",
+          "line": 29
+        }
+      ],
+      "inputs": [
+        {
+          "path": "Paper/ICLR/Figures/section31/magnitude-head-table.tex",
+          "line": 12,
+          "present": true
+        },
+        {
+          "path": "Paper/ICLR/Figures/section31/repeatability.tex",
+          "line": 18,
+          "present": true
+        }
+      ]
+    },
+    {
+      "path": "Paper/ICLR/Sections/04_Method.tex",
+      "labels": [
+        {
+          "label": "sec:method",
+          "line": 2
+        },
+        {
+          "label": "sec:lds-analysis",
+          "line": 10
+        },
+        {
+          "label": "eq:lds-aggregate-error",
+          "line": 27
+        },
+        {
+          "label": "eq:lds-subset-gap",
+          "line": 33
+        },
+        {
+          "label": "sec:score-transformations",
+          "line": 39
+        },
+        {
+          "label": "sec:mystery",
+          "line": 40
+        },
+        {
+          "label": "main:appendix-return-4",
+          "line": 44
+        },
+        {
+          "label": "main:appendix-return-5",
+          "line": 50
+        },
+        {
+          "label": "main:appendix-return-6",
+          "line": 60
+        },
+        {
+          "label": "eq:lds-power-transforms",
+          "line": 81
+        },
+        {
+          "label": "main:appendix-return-7",
+          "line": 85
+        },
+        {
+          "label": "main:appendix-return-8",
+          "line": 88
+        },
+        {
+          "label": "sec:ba-lds",
+          "line": 107
+        },
+        {
+          "label": "sec:head-evaluation",
+          "line": 108
+        },
+        {
+          "label": "eq:ba-mixture",
+          "line": 123
+        },
+        {
+          "label": "eq:ba-nonbackground",
+          "line": 131
+        },
+        {
+          "label": "eq:ba-selection",
+          "line": 144
+        },
+        {
+          "label": "eq:ba-lds",
+          "line": 159
+        },
+        {
+          "label": "main:appendix-return-9",
+          "line": 166
+        },
+        {
+          "label": "sec:source-retrieval",
+          "line": 170
+        },
+        {
+          "label": "eq:source-recall",
+          "line": 185
+        },
+        {
+          "label": "main:appendix-return-10",
+          "line": 187
+        },
+        {
+          "label": "eq:source-ap",
+          "line": 194
+        }
+      ],
+      "inputs": [
+        {
+          "path": "Paper/ICLR/Figures/section31/overview.tex",
+          "line": 71,
+          "present": true
+        }
+      ]
+    },
+    {
+      "path": "Paper/ICLR/Figures/evaluation/edel_selection_accepted.tex",
+      "labels": [
+        {
+          "label": "tab:exp-selection",
+          "line": 21
+        }
+      ],
+      "inputs": []
+    },
+    {
+      "path": "Paper/ICLR/Figures/evaluation/retrieval_common200_main.tex",
+      "labels": [
+        {
+          "label": "tab:exp-retrieval",
+          "line": 26
+        }
+      ],
+      "inputs": []
+    },
+    {
+      "path": "Paper/ICLR/Sections/05_Experiment.tex",
+      "labels": [
+        {
+          "label": "sec:experiments",
+          "line": 7
+        },
+        {
+          "label": "sec:exp-setup",
+          "line": 10
+        },
+        {
+          "label": "main:appendix-return-11",
+          "line": 23
+        },
+        {
+          "label": "main:appendix-return-12",
+          "line": 29
+        },
+        {
+          "label": "sec:exp-validity",
+          "line": 33
+        },
+        {
+          "label": "eq:exp-selection-utility",
+          "line": 53
+        },
+        {
+          "label": "main:appendix-return-13",
+          "line": 57
+        },
+        {
+          "label": "sec:exp-scope",
+          "line": 85
+        },
+        {
+          "label": "main:appendix-return-14",
+          "line": 99
+        },
+        {
+          "label": "tab:exp-ba-cifar",
+          "line": 182
+        },
+        {
+          "label": "tab:exp-c2",
+          "line": 183
+        },
+        {
+          "label": "sec:exp-retrieval",
+          "line": 193
+        },
+        {
+          "label": "main:appendix-return-15",
+          "line": 216
+        }
+      ],
+      "inputs": [
+        {
+          "path": "Paper/ICLR/Figures/evaluation/edel_selection_accepted.tex",
+          "line": 66,
+          "present": true
+        },
+        {
+          "path": "Paper/ICLR/Figures/evaluation/retrieval_common200_main.tex",
+          "line": 214,
+          "present": true
+        }
+      ]
+    },
+    {
+      "path": "Paper/ICLR/Sections/06_Conclusion.tex",
+      "labels": [],
+      "inputs": []
+    },
+    {
+      "path": "Paper/ICLR/Sections/XX_Statement.tex",
+      "labels": [],
+      "inputs": []
+    },
+    {
+      "path": "Paper/ICLR/Sections/XY01_ProofAndDerivations.tex",
+      "labels": [
+        {
+          "label": "app:proofs",
+          "line": 2
+        },
+        {
+          "label": "app:loo",
+          "line": 7
+        },
+        {
+          "label": "eq:app-loo",
+          "line": 49
+        },
+        {
+          "label": "app:fmas-construction",
+          "line": 56
+        },
+        {
+          "label": "app:loss-normalization",
+          "line": 57
+        },
+        {
+          "label": "app:query-field",
+          "line": 58
+        },
+        {
+          "label": "eq:app-query-gradient",
+          "line": 74
+        },
+        {
+          "label": "app:loss-expansion",
+          "line": 102
+        },
+        {
+          "label": "eq:app-loss-expansion",
+          "line": 113
+        },
+        {
+          "label": "prop:loo-orthogonality",
+          "line": 119
+        },
+        {
+          "label": "eq:loo-mmse",
+          "line": 126
+        },
+        {
+          "label": "eq:app-output-additivity",
+          "line": 146
+        }
+      ],
+      "inputs": []
+    },
+    {
+      "path": "Paper/ICLR/Sections/XY02_BaselineConstrutions.tex",
+      "labels": [
+        {
+          "label": "app:baselines",
+          "line": 2
+        }
+      ],
+      "inputs": []
+    },
+    {
+      "path": "Paper/ICLR/Sections/XY03_LDSEvaluation.tex",
+      "labels": [
+        {
+          "label": "app:lds-analysis",
+          "line": 2
+        },
+        {
+          "label": "app:lds-errors",
+          "line": 10
+        },
+        {
+          "label": "eq:app-region-energy",
+          "line": 24
+        },
+        {
+          "label": "eq:app-region-gap",
+          "line": 36
+        },
+        {
+          "label": "eq:app-aggregate-error-variance",
+          "line": 52
+        }
+      ],
+      "inputs": []
+    },
+    {
+      "path": "Paper/ICLR/Figures/evaluation/r16_bands_accepted.tex",
+      "labels": [
+        {
+          "label": "tab:app-r16-bands",
+          "line": 35
+        }
+      ],
+      "inputs": []
+    },
+    {
+      "path": "Paper/ICLR/Figures/section31/square-heads-table.tex",
+      "labels": [],
+      "inputs": []
+    },
+    {
+      "path": "Paper/ICLR/Figures/evaluation/paired-rows.tex",
+      "labels": [],
+      "inputs": []
+    },
+    {
+      "path": "Paper/ICLR/Figures/evaluation/sign-rows.tex",
+      "labels": [],
+      "inputs": []
+    },
+    {
+      "path": "Paper/ICLR/Sections/XY04_MechanismExperiment.tex",
+      "labels": [
+        {
+          "label": "app:mech",
+          "line": 2
+        },
+        {
+          "label": "app:mech-settings",
+          "line": 10
+        },
+        {
+          "label": "app:lds-reporting",
+          "line": 32
+        },
+        {
+          "label": "app:lds-protocol",
+          "line": 48
+        },
+        {
+          "label": "app:mech-bands",
+          "line": 62
+        },
+        {
+          "label": "tab:mech-concentration",
+          "line": 100
+        },
+        {
+          "label": "fig:mech-density-full",
+          "line": 109
+        },
+        {
+          "label": "fig:mech-head-full",
+          "line": 132
+        },
+        {
+          "label": "tab:mech-band-lds",
+          "line": 151
+        },
+        {
+          "label": "app:mech-r16",
+          "line": 159
+        },
+        {
+          "label": "app:mech-power",
+          "line": 184
+        },
+        {
+          "label": "tab:mech-transforms",
+          "line": 226
+        },
+        {
+          "label": "fig:mech-power-full",
+          "line": 246
+        },
+        {
+          "label": "tab:mech-peaks-c2",
+          "line": 281
+        },
+        {
+          "label": "tab:mech-peaks-c10",
+          "line": 299
+        },
+        {
+          "label": "app:squaring",
+          "line": 305
+        },
+        {
+          "label": "app:mech-ddpm",
+          "line": 306
+        },
+        {
+          "label": "tab:mech-fm-square",
+          "line": 338
+        },
+        {
+          "label": "tab:mech-square-heads",
+          "line": 358
+        },
+        {
+          "label": "fig:mech-square-heads-validation",
+          "line": 365
+        },
+        {
+          "label": "tab:mech-ddpm-matched",
+          "line": 394
+        },
+        {
+          "label": "tab:mech-ddpm-grid",
+          "line": 427
+        },
+        {
+          "label": "tab:mech-ddpm",
+          "line": 449
+        },
+        {
+          "label": "app:exp-square-comparison",
+          "line": 462
+        },
+        {
+          "label": "tab:app-square-comparison",
+          "line": 503
+        },
+        {
+          "label": "tab:app-square-gains",
+          "line": 528
+        },
+        {
+          "label": "fig:mech-native-ranges",
+          "line": 535
+        },
+        {
+          "label": "app:mech-native-coverage",
+          "line": 539
+        },
+        {
+          "label": "tab:app-cross-paired",
+          "line": 553
+        },
+        {
+          "label": "tab:app-score-signs",
+          "line": 563
+        },
+        {
+          "label": "app:lds-squaring",
+          "line": 567
+        },
+        {
+          "label": "eq:app-squared-tail-bound",
+          "line": 581
+        },
+        {
+          "label": "app:lds-counterexample",
+          "line": 595
+        },
+        {
+          "label": "eq:lds-counterexample-scores",
+          "line": 607
+        },
+        {
+          "label": "eq:lds-counterexample-full",
+          "line": 622
+        },
+        {
+          "label": "eq:lds-counterexample-risk",
+          "line": 631
+        },
+        {
+          "label": "eq:lds-counterexample-risks",
+          "line": 652
+        },
+        {
+          "label": "eq:lds-counterexample-training",
+          "line": 675
+        },
+        {
+          "label": "eq:lds-counterexample-head",
+          "line": 695
+        }
+      ],
+      "inputs": [
+        {
+          "path": "Paper/ICLR/Figures/evaluation/r16_bands_accepted.tex",
+          "line": 178,
+          "present": true
+        },
+        {
+          "path": "Paper/ICLR/Figures/section31/square-heads-table.tex",
+          "line": 356,
+          "present": true
+        },
+        {
+          "path": "Paper/ICLR/Figures/evaluation/paired-rows.tex",
+          "line": 551,
+          "present": true
+        },
+        {
+          "path": "Paper/ICLR/Figures/evaluation/sign-rows.tex",
+          "line": 561,
+          "present": true
+        }
+      ]
+    },
+    {
+      "path": "Paper/ICLR/Sections/XY06_EvaluationPipelines.tex",
+      "labels": [
+        {
+          "label": "app:evaluation-pipelines",
+          "line": 2
+        },
+        {
+          "label": "app:ba-lds",
+          "line": 8
+        },
+        {
+          "label": "eq:app-ba-fit",
+          "line": 25
+        },
+        {
+          "label": "app:lds-head",
+          "line": 44
+        },
+        {
+          "label": "app:lds-weighting",
+          "line": 45
+        },
+        {
+          "label": "eq:app-weighted-error",
+          "line": 53
+        },
+        {
+          "label": "app:source-retrieval-protocol",
+          "line": 60
+        }
+      ],
+      "inputs": []
+    },
+    {
+      "path": "Paper/ICLR/Figures/evaluation/edel_methods_accepted.tex",
+      "labels": [
+        {
+          "label": "tab:app-edel-methods",
+          "line": 16
+        }
+      ],
+      "inputs": []
+    },
+    {
+      "path": "Paper/ICLR/Figures/evaluation/c2-ba-coverage.tex",
+      "labels": [
+        {
+          "label": "tab:app-c2-ba-coverage",
+          "line": 27
+        }
+      ],
+      "inputs": []
+    },
+    {
+      "path": "Paper/ICLR/Figures/evaluation/native_ba_overnight_coverage.tex",
+      "labels": [
+        {
+          "label": "tab:app-native-coverage-cifar10-v2",
+          "line": 27
+        },
+        {
+          "label": "tab:app-native-coverage-cifar2-das",
+          "line": 56
+        },
+        {
+          "label": "tab:app-native-coverage-artbench2-256",
+          "line": 84
+        }
+      ],
+      "inputs": []
+    },
+    {
+      "path": "Paper/ICLR/Figures/evaluation/retrieval_common200_accepted.tex",
+      "labels": [
+        {
+          "label": "tab:app-retrieval-global",
+          "line": 25
+        }
+      ],
+      "inputs": []
+    },
+    {
+      "path": "Paper/ICLR/Figures/evaluation/retrieval_common200_concepts.tex",
+      "labels": [
+        {
+          "label": "tab:app-retrieval-concepts",
+          "line": 24
+        }
+      ],
+      "inputs": []
+    },
+    {
+      "path": "Paper/ICLR/Figures/evaluation/retrieval_cfm400_accepted.tex",
+      "labels": [
+        {
+          "label": "tab:app-retrieval-cfm400",
+          "line": 23
+        }
+      ],
+      "inputs": []
+    },
+    {
+      "path": "Paper/ICLR/Figures/evaluation/retrieval_cfm400_host.tex",
+      "labels": [
+        {
+          "label": "tab:app-retrieval-host",
+          "line": 23
+        }
+      ],
+      "inputs": []
+    },
+    {
+      "path": "Paper/ICLR/Figures/evaluation/retrieval_ddpm_v2_accepted.tex",
+      "labels": [
+        {
+          "label": "tab:app-retrieval-ddpm-v2",
+          "line": 21
+        }
+      ],
+      "inputs": []
+    },
+    {
+      "path": "Paper/ICLR/Sections/XY05_EvaluationExperiments.tex",
+      "labels": [
+        {
+          "label": "app:eval-experiments",
+          "line": 2
+        },
+        {
+          "label": "app:exp-settings",
+          "line": 8
+        },
+        {
+          "label": "app:exp-deletion",
+          "line": 79
+        },
+        {
+          "label": "tab:app-delete-existing",
+          "line": 102
+        },
+        {
+          "label": "app:exp-ba-feasibility",
+          "line": 121
+        },
+        {
+          "label": "tab:app-ba-feasibility",
+          "line": 141
+        },
+        {
+          "label": "tab:app-ba-utility",
+          "line": 160
+        },
+        {
+          "label": "fig:app-ba-fits",
+          "line": 167
+        },
+        {
+          "label": "app:exp-platforms",
+          "line": 171
+        },
+        {
+          "label": "tab:exp-ba-platforms",
+          "line": 254
+        },
+        {
+          "label": "tab:exp-platforms",
+          "line": 255
+        },
+        {
+          "label": "app:exp-retrieval",
+          "line": 261
+        },
+        {
+          "label": "app:exp-aggregation-diagnostics",
+          "line": 300
+        },
+        {
+          "label": "tab:app-selection-complete",
+          "line": 327
+        },
+        {
+          "label": "tab:app-deletion-pairs",
+          "line": 352
+        },
+        {
+          "label": "app:exp-transform-utility",
+          "line": 356
+        },
+        {
+          "label": "tab:app-transform-utility-complete",
+          "line": 379
+        },
+        {
+          "label": "app:exp-aggregation-controls",
+          "line": 383
+        },
+        {
+          "label": "tab:app-aggregation-controls",
+          "line": 421
+        },
+        {
+          "label": "tab:app-count-controls",
+          "line": 452
+        },
+        {
+          "label": "tab:app-extended-c2",
+          "line": 483
+        },
+        {
+          "label": "tab:app-extended-c10",
+          "line": 508
+        },
+        {
+          "label": "tab:app-extended-ab2",
+          "line": 533
+        }
+      ],
+      "inputs": [
+        {
+          "path": "Paper/ICLR/Figures/evaluation/edel_methods_accepted.tex",
+          "line": 110,
+          "present": true
+        },
+        {
+          "path": "Paper/ICLR/Figures/evaluation/c2-ba-coverage.tex",
+          "line": 192,
+          "present": true
+        },
+        {
+          "path": "Paper/ICLR/Figures/evaluation/native_ba_overnight_coverage.tex",
+          "line": 258,
+          "present": true
+        },
+        {
+          "path": "Paper/ICLR/Figures/evaluation/retrieval_common200_accepted.tex",
+          "line": 277,
+          "present": true
+        },
+        {
+          "path": "Paper/ICLR/Figures/evaluation/retrieval_common200_concepts.tex",
+          "line": 282,
+          "present": true
+        },
+        {
+          "path": "Paper/ICLR/Figures/evaluation/retrieval_cfm400_accepted.tex",
+          "line": 288,
+          "present": true
+        },
+        {
+          "path": "Paper/ICLR/Figures/evaluation/retrieval_cfm400_host.tex",
+          "line": 289,
+          "present": true
+        },
+        {
+          "path": "Paper/ICLR/Figures/evaluation/retrieval_ddpm_v2_accepted.tex",
+          "line": 297,
+          "present": true
+        }
+      ]
+    },
+    {
+      "path": "Paper/ICLR/Sections/XY_Appendix.tex",
+      "labels": [],
+      "inputs": [
+        {
+          "path": "Paper/ICLR/Sections/XY01_ProofAndDerivations.tex",
+          "line": 3,
+          "present": true
+        },
+        {
+          "path": "Paper/ICLR/Sections/XY02_BaselineConstrutions.tex",
+          "line": 4,
+          "present": true
+        },
+        {
+          "path": "Paper/ICLR/Sections/XY03_LDSEvaluation.tex",
+          "line": 5,
+          "present": true
+        },
+        {
+          "path": "Paper/ICLR/Sections/XY04_MechanismExperiment.tex",
+          "line": 6,
+          "present": true
+        },
+        {
+          "path": "Paper/ICLR/Sections/XY06_EvaluationPipelines.tex",
+          "line": 7,
+          "present": true
+        },
+        {
+          "path": "Paper/ICLR/Sections/XY05_EvaluationExperiments.tex",
+          "line": 8,
+          "present": true
+        }
+      ]
+    },
+    {
+      "path": "Paper/ICLR/iclr2027_conference.tex",
+      "labels": [],
+      "inputs": [
+        {
+          "path": "Paper/ICLR/math_commands.tex",
+          "line": 5,
+          "present": true
+        },
+        {
+          "path": "Paper/ICLR/Sections/00_Abstract.tex",
+          "line": 53,
+          "present": true
+        },
+        {
+          "path": "Paper/ICLR/Sections/01_Introduction.tex",
+          "line": 55,
+          "present": true
+        },
+        {
+          "path": "Paper/ICLR/Sections/02_RelatedWorks.tex",
+          "line": 56,
+          "present": true
+        },
+        {
+          "path": "Paper/ICLR/Sections/03_Preliminary.tex",
+          "line": 59,
+          "present": true
+        },
+        {
+          "path": "Paper/ICLR/Sections/04_Method.tex",
+          "line": 60,
+          "present": true
+        },
+        {
+          "path": "Paper/ICLR/Sections/05_Experiment.tex",
+          "line": 61,
+          "present": true
+        },
+        {
+          "path": "Paper/ICLR/Sections/06_Conclusion.tex",
+          "line": 62,
+          "present": true
+        },
+        {
+          "path": "Paper/ICLR/Sections/XX_Statement.tex",
+          "line": 64,
+          "present": true
+        },
+        {
+          "path": "Paper/ICLR/Sections/XY_Appendix.tex",
+          "line": 70,
+          "present": true
+        }
+      ]
+    }
+  ]
+}

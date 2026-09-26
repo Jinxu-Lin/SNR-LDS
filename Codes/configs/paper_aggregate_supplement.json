@@ -1,0 +1,31 @@
+{
+  "provenance": "Final Paper/Figures/Table1/table.tex: author supplied means on 2026-09-26",
+  "status": "aggregate_only",
+  "note": "Rounded manuscript means only. No per-query scores/fits supplied; excluded from coverage and sensitivity statistics. Never infer missing query records from these values.",
+  "records": [
+    {
+      "dataset": "cifar2_das",
+      "track": "val",
+      "method": "tracincp_T100",
+      "snr_lds": 0.0033
+    },
+    {
+      "dataset": "cifar2_das",
+      "track": "gen",
+      "method": "tracincp_T100",
+      "snr_lds": 0.0014
+    },
+    {
+      "dataset": "cifar2_das",
+      "track": "val",
+      "method": "gas_T100",
+      "snr_lds": 0.0
+    },
+    {
+      "dataset": "cifar2_das",
+      "track": "gen",
+      "method": "gas_T100",
+      "snr_lds": -0.0005
+    }
+  ]
+}

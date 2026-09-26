@@ -1,0 +1,919 @@
+{
+  "date": "2026-09-26",
+  "authority": "BA-LDS/Paper; CFA/Paper is older",
+  "entry": "Paper/iclr2027_conference.tex",
+  "files": [
+    {
+      "path": "Paper/math_commands.tex",
+      "labels": [],
+      "inputs": []
+    },
+    {
+      "path": "Paper/Sections/00_Abstract.tex",
+      "labels": [],
+      "inputs": []
+    },
+    {
+      "path": "Paper/Figures/Fig1/overview.tex",
+      "labels": [
+        {
+          "label": "fig:motivation",
+          "line": 11
+        }
+      ],
+      "inputs": []
+    },
+    {
+      "path": "Paper/Sections/01_Introduction.tex",
+      "labels": [
+        {
+          "label": "sec:introduction",
+          "line": 2
+        }
+      ],
+      "inputs": [
+        {
+          "path": "Paper/Figures/Fig1/overview.tex",
+          "line": 17,
+          "present": true
+        }
+      ]
+    },
+    {
+      "path": "Paper/Sections/02_RelatedWorks.tex",
+      "labels": [
+        {
+          "label": "sec:related-work",
+          "line": 2
+        }
+      ],
+      "inputs": []
+    },
+    {
+      "path": "Paper/Sections/03_Preliminary.tex",
+      "labels": [
+        {
+          "label": "sec:preliminaries",
+          "line": 2
+        },
+        {
+          "label": "sec:flow-matching",
+          "line": 4
+        },
+        {
+          "label": "eq:fm-loss",
+          "line": 17
+        },
+        {
+          "label": "sec:tda-if",
+          "line": 22
+        },
+        {
+          "label": "sec:fmas",
+          "line": 23
+        },
+        {
+          "label": "eq:if-score",
+          "line": 37
+        },
+        {
+          "label": "eq:fmas-score",
+          "line": 51
+        },
+        {
+          "label": "sec:lds",
+          "line": 57
+        },
+        {
+          "label": "eq:lds",
+          "line": 71
+        }
+      ],
+      "inputs": []
+    },
+    {
+      "path": "Paper/Figures/Fig2/absolute-head-readouts.tex",
+      "labels": [],
+      "inputs": []
+    },
+    {
+      "path": "Paper/Figures/Fig2/overview.tex",
+      "labels": [
+        {
+          "label": "fig:mechanism",
+          "line": 27
+        }
+      ],
+      "inputs": [
+        {
+          "path": "Paper/Figures/Fig2/absolute-head-readouts.tex",
+          "line": 19,
+          "present": true
+        }
+      ]
+    },
+    {
+      "path": "Paper/Sections/04_Method.tex",
+      "labels": [
+        {
+          "label": "sec:method",
+          "line": 2
+        },
+        {
+          "label": "sec:score-estimation",
+          "line": 8
+        },
+        {
+          "label": "sec:lds-analysis",
+          "line": 9
+        },
+        {
+          "label": "eq:band-variation",
+          "line": 30
+        },
+        {
+          "label": "sec:mechanism-experiments",
+          "line": 40
+        },
+        {
+          "label": "sec:snr-lds",
+          "line": 67
+        },
+        {
+          "label": "sec:head-evaluation",
+          "line": 68
+        },
+        {
+          "label": "eq:snr-selection",
+          "line": 84
+        },
+        {
+          "label": "eq:snr-lds",
+          "line": 91
+        },
+        {
+          "label": "sec:source-retrieval",
+          "line": 103
+        },
+        {
+          "label": "eq:source-recall",
+          "line": 117
+        },
+        {
+          "label": "eq:source-ap",
+          "line": 125
+        }
+      ],
+      "inputs": [
+        {
+          "path": "Paper/Figures/Fig2/overview.tex",
+          "line": 46,
+          "present": true
+        }
+      ]
+    },
+    {
+      "path": "Paper/Figures/Fig3/snr-readouts.tex",
+      "labels": [],
+      "inputs": []
+    },
+    {
+      "path": "Paper/Figures/Fig3/deletion_visual.tex",
+      "labels": [],
+      "inputs": []
+    },
+    {
+      "path": "Paper/Figures/Fig3/overview.tex",
+      "labels": [
+        {
+          "label": "fig:snr-diagnostics",
+          "line": 20
+        }
+      ],
+      "inputs": [
+        {
+          "path": "Paper/Figures/Fig3/snr-readouts.tex",
+          "line": 7,
+          "present": true
+        },
+        {
+          "path": "Paper/Figures/Fig3/deletion_visual.tex",
+          "line": 14,
+          "present": true
+        }
+      ]
+    },
+    {
+      "path": "Paper/Figures/Table1/table.tex",
+      "labels": [
+        {
+          "label": "tab:exp-snr-cifar",
+          "line": 40
+        },
+        {
+          "label": "tab:exp-c2",
+          "line": 41
+        }
+      ],
+      "inputs": []
+    },
+    {
+      "path": "Paper/Figures/Table2/table.tex",
+      "labels": [
+        {
+          "label": "tab:exp-retrieval",
+          "line": 32
+        }
+      ],
+      "inputs": []
+    },
+    {
+      "path": "Paper/Sections/05_Experiment.tex",
+      "labels": [
+        {
+          "label": "sec:experiments",
+          "line": 2
+        },
+        {
+          "label": "sec:exp-setup",
+          "line": 5
+        },
+        {
+          "label": "sec:exp-validity",
+          "line": 27
+        },
+        {
+          "label": "sec:exp-scope",
+          "line": 51
+        },
+        {
+          "label": "sec:exp-retrieval",
+          "line": 65
+        }
+      ],
+      "inputs": [
+        {
+          "path": "Paper/Figures/Fig3/overview.tex",
+          "line": 24,
+          "present": true
+        },
+        {
+          "path": "Paper/Figures/Table1/table.tex",
+          "line": 48,
+          "present": true
+        },
+        {
+          "path": "Paper/Figures/Table2/table.tex",
+          "line": 75,
+          "present": true
+        }
+      ]
+    },
+    {
+      "path": "Paper/Sections/06_Conclusion.tex",
+      "labels": [],
+      "inputs": []
+    },
+    {
+      "path": "Paper/Sections/XX_Statement.tex",
+      "labels": [],
+      "inputs": []
+    },
+    {
+      "path": "Paper/Sections/XY01_ProofAndDerivations.tex",
+      "labels": [
+        {
+          "label": "app:proofs",
+          "line": 2
+        },
+        {
+          "label": "app:loo",
+          "line": 7
+        },
+        {
+          "label": "eq:app-loo",
+          "line": 52
+        },
+        {
+          "label": "app:fmas-construction",
+          "line": 59
+        },
+        {
+          "label": "app:loss-normalization",
+          "line": 60
+        },
+        {
+          "label": "app:query-field",
+          "line": 61
+        },
+        {
+          "label": "eq:app-query-gradient",
+          "line": 77
+        },
+        {
+          "label": "app:sampling-noise-in-low-magnitude-scores",
+          "line": 106
+        },
+        {
+          "label": "eq:app-region-gap",
+          "line": 123
+        },
+        {
+          "label": "app:loss-expansion",
+          "line": 136
+        },
+        {
+          "label": "eq:app-loss-expansion",
+          "line": 147
+        },
+        {
+          "label": "prop:loo-orthogonality",
+          "line": 153
+        },
+        {
+          "label": "eq:loo-mmse",
+          "line": 160
+        },
+        {
+          "label": "eq:app-output-additivity",
+          "line": 181
+        }
+      ],
+      "inputs": []
+    },
+    {
+      "path": "Paper/Sections/XY02_RelatedWorkAndBaselines.tex",
+      "labels": [
+        {
+          "label": "app:related-baselines",
+          "line": 2
+        },
+        {
+          "label": "app:related-work",
+          "line": 5
+        },
+        {
+          "label": "app:baselines",
+          "line": 34
+        }
+      ],
+      "inputs": []
+    },
+    {
+      "path": "Paper/Figures/Fig4/overview.tex",
+      "labels": [
+        {
+          "label": "fig:mech-density-full",
+          "line": 7
+        }
+      ],
+      "inputs": []
+    },
+    {
+      "path": "Paper/Figures/Table4/table.tex",
+      "labels": [
+        {
+          "label": "tab:app-r16-bands",
+          "line": 36
+        }
+      ],
+      "inputs": []
+    },
+    {
+      "path": "Paper/Figures/Fig6/overview.tex",
+      "labels": [
+        {
+          "label": "fig:mech-power-full",
+          "line": 7
+        }
+      ],
+      "inputs": []
+    },
+    {
+      "path": "Paper/Figures/Table5/table.tex",
+      "labels": [
+        {
+          "label": "tab:mech-fm-square",
+          "line": 17
+        }
+      ],
+      "inputs": []
+    },
+    {
+      "path": "Paper/Figures/Fig5/overview.tex",
+      "labels": [
+        {
+          "label": "fig:mech-head-full",
+          "line": 16
+        }
+      ],
+      "inputs": []
+    },
+    {
+      "path": "Paper/Figures/Table8/table.tex",
+      "labels": [
+        {
+          "label": "tab:app-square-comparison",
+          "line": 29
+        }
+      ],
+      "inputs": []
+    },
+    {
+      "path": "Paper/Figures/Table9/table.tex",
+      "labels": [
+        {
+          "label": "tab:app-square-gains",
+          "line": 23
+        }
+      ],
+      "inputs": []
+    },
+    {
+      "path": "Paper/Figures/Table10/table.tex",
+      "labels": [
+        {
+          "label": "tab:mech-ddpm-matched",
+          "line": 20
+        }
+      ],
+      "inputs": []
+    },
+    {
+      "path": "Paper/Sections/XY03_MechanismExperiment.tex",
+      "labels": [
+        {
+          "label": "app:mech",
+          "line": 2
+        },
+        {
+          "label": "app:mech-settings",
+          "line": 7
+        },
+        {
+          "label": "app:lds-reporting",
+          "line": 26
+        },
+        {
+          "label": "app:lds-protocol",
+          "line": 42
+        },
+        {
+          "label": "app:mech-bands",
+          "line": 51
+        },
+        {
+          "label": "app:mech-r16",
+          "line": 66
+        },
+        {
+          "label": "app:mech-power",
+          "line": 95
+        },
+        {
+          "label": "app:squaring",
+          "line": 112
+        },
+        {
+          "label": "app:mech-ddpm",
+          "line": 113
+        },
+        {
+          "label": "app:exp-square-comparison",
+          "line": 114
+        }
+      ],
+      "inputs": [
+        {
+          "path": "Paper/Figures/Fig4/overview.tex",
+          "line": 63,
+          "present": true
+        },
+        {
+          "path": "Paper/Figures/Table4/table.tex",
+          "line": 89,
+          "present": true
+        },
+        {
+          "path": "Paper/Figures/Fig6/overview.tex",
+          "line": 109,
+          "present": true
+        },
+        {
+          "path": "Paper/Figures/Table5/table.tex",
+          "line": 140,
+          "present": true
+        },
+        {
+          "path": "Paper/Figures/Fig5/overview.tex",
+          "line": 147,
+          "present": true
+        },
+        {
+          "path": "Paper/Figures/Table8/table.tex",
+          "line": 166,
+          "present": true
+        },
+        {
+          "path": "Paper/Figures/Table9/table.tex",
+          "line": 168,
+          "present": true
+        },
+        {
+          "path": "Paper/Figures/Table10/table.tex",
+          "line": 175,
+          "present": true
+        }
+      ]
+    },
+    {
+      "path": "Paper/Sections/XY04_EvaluationPipelines.tex",
+      "labels": [
+        {
+          "label": "app:evaluation-pipelines",
+          "line": 2
+        },
+        {
+          "label": "app:snr-lds",
+          "line": 9
+        },
+        {
+          "label": "eq:snr-central-fit",
+          "line": 26
+        },
+        {
+          "label": "eq:app-snr-fit",
+          "line": 34
+        },
+        {
+          "label": "eq:snr-das-readout",
+          "line": 48
+        },
+        {
+          "label": "app:source-retrieval-protocol",
+          "line": 64
+        }
+      ],
+      "inputs": []
+    },
+    {
+      "path": "Paper/Figures/Table12/table.tex",
+      "labels": [
+        {
+          "label": "tab:app-delete-existing",
+          "line": 15
+        }
+      ],
+      "inputs": []
+    },
+    {
+      "path": "Paper/Figures/Table13/table.tex",
+      "labels": [
+        {
+          "label": "tab:exp-selection",
+          "line": 12
+        }
+      ],
+      "inputs": []
+    },
+    {
+      "path": "Paper/Figures/Table14/table.tex",
+      "labels": [
+        {
+          "label": "tab:snr-coverage",
+          "line": 28
+        }
+      ],
+      "inputs": []
+    },
+    {
+      "path": "Paper/Figures/Table15/table.tex",
+      "labels": [
+        {
+          "label": "tab:exp-snr-platforms",
+          "line": 33
+        },
+        {
+          "label": "tab:exp-platforms",
+          "line": 34
+        }
+      ],
+      "inputs": []
+    },
+    {
+      "path": "Paper/Figures/Table16/table.tex",
+      "labels": [
+        {
+          "label": "tab:snr-sensitivity",
+          "line": 46
+        }
+      ],
+      "inputs": []
+    },
+    {
+      "path": "Paper/Figures/Fig9/overview.tex",
+      "labels": [
+        {
+          "label": "fig:snr-fixed-fits",
+          "line": 5
+        }
+      ],
+      "inputs": []
+    },
+    {
+      "path": "Paper/Figures/Fig10/overview.tex",
+      "labels": [
+        {
+          "label": "fig:snr-fit-distributions",
+          "line": 5
+        }
+      ],
+      "inputs": []
+    },
+    {
+      "path": "Paper/Figures/Table17/table.tex",
+      "labels": [
+        {
+          "label": "tab:app-injection-pairs",
+          "line": 20
+        }
+      ],
+      "inputs": []
+    },
+    {
+      "path": "Paper/Figures/Table18/table.tex",
+      "labels": [
+        {
+          "label": "tab:app-retrieval-by-concept",
+          "line": 43
+        }
+      ],
+      "inputs": []
+    },
+    {
+      "path": "Paper/Figures/Table19/table.tex",
+      "labels": [
+        {
+          "label": "tab:app-retrieval-ddpm-by-concept",
+          "line": 45
+        }
+      ],
+      "inputs": []
+    },
+    {
+      "path": "Paper/Sections/XY05_EvaluationExperiments.tex",
+      "labels": [
+        {
+          "label": "app:eval-experiments",
+          "line": 2
+        },
+        {
+          "label": "app:exp-settings",
+          "line": 8
+        },
+        {
+          "label": "app:snr-validation",
+          "line": 74
+        },
+        {
+          "label": "app:exp-deletion",
+          "line": 87
+        },
+        {
+          "label": "eq:exp-selection-utility",
+          "line": 106
+        },
+        {
+          "label": "app:exp-platforms",
+          "line": 145
+        },
+        {
+          "label": "app:exp-retrieval",
+          "line": 175
+        }
+      ],
+      "inputs": [
+        {
+          "path": "Paper/Figures/Table12/table.tex",
+          "line": 96,
+          "present": true
+        },
+        {
+          "path": "Paper/Figures/Table13/table.tex",
+          "line": 114,
+          "present": true
+        },
+        {
+          "path": "Paper/Figures/Table14/table.tex",
+          "line": 160,
+          "present": true
+        },
+        {
+          "path": "Paper/Figures/Table15/table.tex",
+          "line": 167,
+          "present": true
+        },
+        {
+          "path": "Paper/Figures/Table16/table.tex",
+          "line": 168,
+          "present": true
+        },
+        {
+          "path": "Paper/Figures/Fig9/overview.tex",
+          "line": 170,
+          "present": true
+        },
+        {
+          "path": "Paper/Figures/Fig10/overview.tex",
+          "line": 172,
+          "present": true
+        },
+        {
+          "path": "Paper/Figures/Table17/table.tex",
+          "line": 188,
+          "present": true
+        },
+        {
+          "path": "Paper/Figures/Table18/table.tex",
+          "line": 203,
+          "present": true
+        },
+        {
+          "path": "Paper/Figures/Table19/table.tex",
+          "line": 204,
+          "present": true
+        }
+      ]
+    },
+    {
+      "path": "Paper/Sections/XY06_Notation.tex",
+      "labels": [
+        {
+          "label": "app:notation",
+          "line": 3
+        }
+      ],
+      "inputs": []
+    },
+    {
+      "path": "Paper/Sections/XY_Appendix.tex",
+      "labels": [],
+      "inputs": [
+        {
+          "path": "Paper/Sections/XY01_ProofAndDerivations.tex",
+          "line": 6,
+          "present": true
+        },
+        {
+          "path": "Paper/Sections/XY02_RelatedWorkAndBaselines.tex",
+          "line": 7,
+          "present": true
+        },
+        {
+          "path": "Paper/Sections/XY03_MechanismExperiment.tex",
+          "line": 8,
+          "present": true
+        },
+        {
+          "path": "Paper/Sections/XY04_EvaluationPipelines.tex",
+          "line": 9,
+          "present": true
+        },
+        {
+          "path": "Paper/Sections/XY05_EvaluationExperiments.tex",
+          "line": 10,
+          "present": true
+        },
+        {
+          "path": "Paper/Sections/XY06_Notation.tex",
+          "line": 11,
+          "present": true
+        }
+      ]
+    },
+    {
+      "path": "Paper/iclr2027_conference.tex",
+      "labels": [],
+      "inputs": [
+        {
+          "path": "Paper/math_commands.tex",
+          "line": 9,
+          "present": true
+        },
+        {
+          "path": "Paper/Sections/00_Abstract.tex",
+          "line": 80,
+          "present": true
+        },
+        {
+          "path": "Paper/Sections/01_Introduction.tex",
+          "line": 82,
+          "present": true
+        },
+        {
+          "path": "Paper/Sections/02_RelatedWorks.tex",
+          "line": 83,
+          "present": true
+        },
+        {
+          "path": "Paper/Sections/03_Preliminary.tex",
+          "line": 86,
+          "present": true
+        },
+        {
+          "path": "Paper/Sections/04_Method.tex",
+          "line": 87,
+          "present": true
+        },
+        {
+          "path": "Paper/Sections/05_Experiment.tex",
+          "line": 88,
+          "present": true
+        },
+        {
+          "path": "Paper/Sections/06_Conclusion.tex",
+          "line": 89,
+          "present": true
+        },
+        {
+          "path": "Paper/Sections/XX_Statement.tex",
+          "line": 91,
+          "present": true
+        },
+        {
+          "path": "Paper/Sections/XY_Appendix.tex",
+          "line": 97,
+          "present": true
+        }
+      ]
+    }
+  ],
+  "graphics": [
+    {
+      "from": "Paper/Figures/Fig1/overview.tex",
+      "line": 4,
+      "path": "Paper/Figures/Fig1/motivation-density.pdf",
+      "present": true
+    },
+    {
+      "from": "Paper/Figures/Fig1/overview.tex",
+      "line": 5,
+      "path": "Paper/Figures/Fig1/motivation-repeatability.pdf",
+      "present": true
+    },
+    {
+      "from": "Paper/Figures/Fig2/overview.tex",
+      "line": 10,
+      "path": "Paper/Figures/Fig2/aggregation-hard-truncation.pdf",
+      "present": true
+    },
+    {
+      "from": "Paper/Figures/Fig2/overview.tex",
+      "line": 11,
+      "path": "Paper/Figures/Fig2/aggregation-power.pdf",
+      "present": true
+    },
+    {
+      "from": "Paper/Figures/Fig4/overview.tex",
+      "line": 3,
+      "path": "Paper/Figures/Fig4/density-all.pdf",
+      "present": true
+    },
+    {
+      "from": "Paper/Figures/Fig6/overview.tex",
+      "line": 3,
+      "path": "Paper/Figures/Fig6/core-power.pdf",
+      "present": true
+    },
+    {
+      "from": "Paper/Figures/Fig5/overview.tex",
+      "line": 3,
+      "path": "Paper/Figures/Fig5/method-legend.pdf",
+      "present": true
+    },
+    {
+      "from": "Paper/Figures/Fig5/overview.tex",
+      "line": 6,
+      "path": "Paper/Figures/Fig5/head-gen.pdf",
+      "present": true
+    },
+    {
+      "from": "Paper/Figures/Fig5/overview.tex",
+      "line": 10,
+      "path": "Paper/Figures/Fig5/head-val.pdf",
+      "present": true
+    },
+    {
+      "from": "Paper/Figures/Fig9/overview.tex",
+      "line": 3,
+      "path": "Paper/Figures/Fig9/fixed-c2-s42-gen-q0-q1.png",
+      "present": true
+    },
+    {
+      "from": "Paper/Figures/Fig10/overview.tex",
+      "line": 3,
+      "path": "Paper/Figures/Fig10/sigma-coverage-distributions.png",
+      "present": true
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+Using the latest cached version of the dataset since cifar10 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'plain_text' at _Data/hf_cache/cifar10/plain_text/0.0.0/0b2714987fa478483af9968de7c934580d0bb9a2 (last modified on Sat Sep 26 16:37:33 2026).
+cfm/fmas_raw: R@200=0.276737 AP=0.253109
+cfm/ekfac_if: R@200=0.260725 AP=0.234983
+cfm/dtrak_T100: R@200=0.247862 AP=0.234897
+cfm/das_T100: R@200=0.231575 AP=0.211623
+cfm/trak_T100: R@200=0.118150 AP=0.074527
+cfm/clip_cos: R@200=0.142850 AP=0.125315
+cfm/pixel_cos: R@200=0.022075 AP=0.012526
+cfm/clip_dot: R@200=0.086462 AP=0.067981
+cfm/pixel_dot: R@200=0.000988 AP=0.004256
+cfm/grad_dot_T100: R@200=0.005912 AP=0.005332
+cfm/grad_cos_T100: R@200=0.010025 AP=0.006187
+cfm/relative_if_T100: R@200=0.118987 AP=0.072591
+cfm/renorm_if_T100: R@200=0.107963 AP=0.068133
+ddpm/fmas_raw: R@200=0.268188 AP=0.230306
+ddpm/ekfac_if: R@200=0.249650 AP=0.207790
+ddpm/dtrak_T100: R@200=0.301125 AP=0.291339
+ddpm/das_T100: R@200=0.268825 AP=0.261876
+ddpm/trak_T100: R@200=0.125800 AP=0.078993
+ddpm/clip_cos: R@200=0.129950 AP=0.109860
+ddpm/pixel_cos: R@200=0.018838 AP=0.010975
+ddpm/clip_dot: R@200=0.074200 AP=0.055232
+ddpm/pixel_dot: R@200=0.000937 AP=0.004210
+ddpm/grad_dot_T100: R@200=0.005275 AP=0.005929
+ddpm/grad_cos_T100: R@200=0.008463 AP=0.006514
+ddpm/relative_if_T100: R@200=0.124225 AP=0.075352
+ddpm/renorm_if_T100: R@200=0.090575 AP=0.050710
+{
+  "protocol": "reviewed-v2-val100-test400",
+  "methods_per_process": 13,
+  "results": {
+    "cfm": {
+      "fmas_raw": {
+        "best_lam": 1.0,
+        "ap_global": 0.25310883645654325,
+        "recall_at_k_global": 0.27673749999999997,
+        "ap_pool": 0.28332403983969495
+      },
+      "ekfac_if": {
+        "best_lam": 1e-09,
+        "ap_global": 0.23498298747389956,
+        "recall_at_k_global": 0.260725,
+        "ap_pool": 0.26461568128348706
+      },
+      "dtrak_T100": {
+        "best_lam": 2.0,
+        "ap_global": 0.23489718066613247,
+        "recall_at_k_global": 0.24786249999999996,
+        "ap_pool": 0.28020612641077564
+      },
+      "das_T100": {
+        "best_lam": 0.1,
+        "ap_global": 0.21162298963083187,
+        "recall_at_k_global": 0.231575,
+        "ap_pool": 0.2576650683903748
+      },
+      "trak_T100": {
+        "best_lam": 0.2,
+        "ap_global": 0.07452719977520145,
+        "recall_at_k_global": 0.11815,
+        "ap_pool": 0.15160614675537062
+      },
+      "clip_cos": {
+        "best_lam": 0.01,
+        "ap_global": 0.12531519421439358,
+        "recall_at_k_global": 0.14285,
+        "ap_pool": 0.25384124028193206
+      },
+      "pixel_cos": {
+        "best_lam": 0.01,
+        "ap_global": 0.012526065614448616,
+        "recall_at_k_global": 0.022075000000000004,
+        "ap_pool": 0.08703814958645897
+      },
+      "clip_dot": {
+        "best_lam": 0.01,
+        "ap_global": 0.06798116223219698,
+        "recall_at_k_global": 0.0864625,
+        "ap_pool": 0.19607419029310463
+      },
+      "pixel_dot": {
+        "best_lam": 0.01,
+        "ap_global": 0.004255906435127468,
+        "recall_at_k_global": 0.0009875,
+        "ap_pool": 0.04200016994838317
+      },
+      "grad_dot_T100": {
+        "best_lam": 0.01,
+        "ap_global": 0.00533241631408712,
+        "recall_at_k_global": 0.005912499999999999,
+        "ap_pool": 0.052202980823376335
+      },
+      "grad_cos_T100": {
+        "best_lam": 0.01,
+        "ap_global": 0.0061871773925184,
+        "recall_at_k_global": 0.010025,
+        "ap_pool": 0.05659439583349178
+      },
+      "relative_if_T100": {
+        "best_lam": 0.2,
+        "ap_global": 0.07259058997005563,
+        "recall_at_k_global": 0.1189875,
+        "ap_pool": 0.15301923326314162
+      },
+      "renorm_if_T100": {
+        "best_lam": 0.2,
+        "ap_global": 0.06813276144956257,
+        "recall_at_k_global": 0.1079625,
+        "ap_pool": 0.14575574895665105
+      }
+    },
+    "ddpm": {
+      "fmas_raw": {
+        "best_lam": 1.0,
+        "ap_global": 0.23030574549261745,
+        "recall_at_k_global": 0.2681875,
+        "ap_pool": 0.26850481188704
+      },
+      "ekfac_if": {
+        "best_lam": 1e-12,
+        "ap_global": 0.20779000490471264,
+        "recall_at_k_global": 0.24964999999999998,
+        "ap_pool": 0.25327002575557056
+      },
+      "dtrak_T100": {
+        "best_lam": 0.5,
+        "ap_global": 0.2913388566817846,
+        "recall_at_k_global": 0.301125,
+        "ap_pool": 0.3125281916618087
+      },
+      "das_T100": {
+        "best_lam": 0.05,
+        "ap_global": 0.2618764208092862,
+        "recall_at_k_global": 0.268825,
+        "ap_pool": 0.28887256836609654
+      },
+      "trak_T100": {
+        "best_lam": 0.05,
+        "ap_global": 0.07899316610326065,
+        "recall_at_k_global": 0.1258,
+        "ap_pool": 0.14830910305122239
+      },
+      "clip_cos": {
+        "best_lam": 0.01,
+        "ap_global": 0.10986040951376633,
+        "recall_at_k_global": 0.12995,
+        "ap_pool": 0.24269194063332522
+      },
+      "pixel_cos": {
+        "best_lam": 0.01,
+        "ap_global": 0.01097472063447069,
+        "recall_at_k_global": 0.0188375,
+        "ap_pool": 0.08762603759714913
+      },
+      "clip_dot": {
+        "best_lam": 0.01,
+        "ap_global": 0.055232372707706825,
+        "recall_at_k_global": 0.07420000000000002,
+        "ap_pool": 0.18411776257535056
+      },
+      "pixel_dot": {
+        "best_lam": 0.01,
+        "ap_global": 0.004209802364889666,
+        "recall_at_k_global": 0.0009375,
+        "ap_pool": 0.04203568092309888
+      },
+      "grad_dot_T100": {
+        "best_lam": 0.01,
+        "ap_global": 0.005928514371086895,
+        "recall_at_k_global": 0.005275,
+        "ap_pool": 0.059954564281899214
+      },
+      "grad_cos_T100": {
+        "best_lam": 0.01,
+        "ap_global": 0.006514184603976503,
+        "recall_at_k_global": 0.008462500000000001,
+        "ap_pool": 0.061660235784343695
+      },
+      "relative_if_T100": {
+        "best_lam": 0.05,
+        "ap_global": 0.07535246388455545,
+        "recall_at_k_global": 0.124225,
+        "ap_pool": 0.14839483572131282
+      },
+      "renorm_if_T100": {
+        "best_lam": 0.05,
+        "ap_global": 0.05071014362125651,
+        "recall_at_k_global": 0.09057499999999999,
+        "ap_pool": 0.1297728359318432
+      }
+    }
+  },
+  "paper_comparison": {
+    "status": "mismatch",
+    "numeric_cells": 572,
+    "differences": [
+      {
+        "table": 2,
+        "method": "ekfac_if",
+        "metric": "ap_global",
+        "column": 2,
+        "printed": 0.2497,
+        "reproduced": 0.24964999999999998
+      },
+      {
+        "table": 18,
+        "method": "fmas_raw",
+        "metric": "recall_at_k_global",
+        "column": 0,
+        "printed": 0.062,
+        "reproduced": 0.0615
+      },
+      {
+        "table": 19,
+        "method": "ekfac_if",
+        "metric": "recall_at_k_global",
+        "column": 1,
+        "printed": 0.086,
+        "reproduced": 0.08549999999999999
+      }
+    ]
+  }
+}
+
+Postprocessing comparator correction: compare printed decimal intervals, avoiding binary half-tie format artifacts. No metric recomputation/change. Final summary.json comparison PASS: 572 numeric cells, 0 differences. See retrieval-verification.json for all boundary cells.

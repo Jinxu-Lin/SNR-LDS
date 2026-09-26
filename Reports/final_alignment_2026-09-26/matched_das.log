@@ -1,0 +1,14 @@
+cifar2_5k 42 gen das_native_sq complete
+cifar2_5k 42 val das_native_sq complete
+cifar2_5k 123 gen das_native_sq complete
+cifar2_5k 123 val das_native_sq complete
+cifar2_5k 456 gen das_native_sq complete
+cifar2_5k 456 val das_native_sq complete
+cifar10_v2 42 gen das_native_sq complete
+cifar10_v2 42 val das_native_sq complete
+cifar10_v2 123 gen das_native_sq complete
+cifar10_v2 123 val das_native_sq complete
+cifar10_v2 456 gen das_native_sq complete
+cifar10_v2 456 val das_native_sq complete
+artbench2_256 42 gen das_native_sq complete
+artbench2_256 42 val das_native_sq complete

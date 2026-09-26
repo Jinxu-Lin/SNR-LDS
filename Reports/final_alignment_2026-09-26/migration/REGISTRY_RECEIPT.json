@@ -1,0 +1,8 @@
+{
+  "eligible_source_entries": 797,
+  "existing_destination_entries": 787,
+  "new_entries": 10,
+  "execute": true,
+  "existing_entries_overwritten": false,
+  "hashes": "Existing identifiers retained; no new hashing"
+}

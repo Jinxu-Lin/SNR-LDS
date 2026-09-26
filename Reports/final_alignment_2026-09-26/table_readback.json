@@ -1,0 +1,62 @@
+[
+  {
+    "table": "Table1",
+    "equal": true,
+    "paper_rows": 13,
+    "generated_rows": 13
+  },
+  {
+    "table": "Table8",
+    "equal": true,
+    "paper_rows": 19,
+    "generated_rows": 19
+  },
+  {
+    "table": "Table9",
+    "equal": true,
+    "paper_rows": 13,
+    "generated_rows": 13
+  },
+  {
+    "table": "Table12",
+    "equal": true,
+    "paper_rows": 5,
+    "generated_rows": 5
+  },
+  {
+    "table": "Table13",
+    "equal": true,
+    "paper_rows": 2,
+    "generated_rows": 2
+  },
+  {
+    "table": "Table14",
+    "equal": true,
+    "paper_rows": 17,
+    "generated_rows": 17
+  },
+  {
+    "table": "Table15",
+    "equal": true,
+    "paper_rows": 13,
+    "generated_rows": 13
+  },
+  {
+    "table": "Table16",
+    "equal": true,
+    "paper_rows": 33,
+    "generated_rows": 33
+  },
+  {
+    "table": "Fig3/snr-readouts.tex",
+    "equal": true,
+    "paper_rows": 9,
+    "generated_rows": 9
+  },
+  {
+    "table": "Fig3/deletion_visual.tex",
+    "equal": true,
+    "paper_rows": 6,
+    "generated_rows": 6
+  }
+]

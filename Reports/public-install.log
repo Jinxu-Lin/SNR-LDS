@@ -1,0 +1,26 @@
+Processing /path/to/BA-LDS/Codes
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting numpy>=1.24 (from ba-lds==0.1.0)
+  Downloading numpy-2.5.3-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (6.6 kB)
+Collecting scipy>=1.10 (from ba-lds==0.1.0)
+  Downloading scipy-1.18.1-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (62 kB)
+Collecting PyYAML>=6 (from ba-lds==0.1.0)
+  Using cached pyyaml-6.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.4 kB)
+Downloading numpy-2.5.3-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (16.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.7/16.7 MB 111.3 MB/s eta 0:00:00
+Using cached pyyaml-6.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (807 kB)
+Downloading scipy-1.18.1-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (35.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 35.3/35.3 MB 82.2 MB/s eta 0:00:00
+Building wheels for collected packages: ba-lds
+  Building wheel for ba-lds (pyproject.toml): started
+  Building wheel for ba-lds (pyproject.toml): finished with status 'done'
+  Created wheel for ba-lds: filename=ba_lds-0.1.0-py3-none-any.whl size=305303 sha256=e62b97b944ba6d59682c5dead6d692fbc77c1e1aa343403ba3e862a4e91c4f78
+  Stored in directory: /tmp/pip-ephem-wheel-cache-d9mk2ted/wheels/c6/84/6a/d6c819201f214468e7a1d6c5e200e9816a26f145793c0c98b3
+Successfully built ba-lds
+Installing collected packages: PyYAML, numpy, scipy, ba-lds
+Successfully installed PyYAML-6.0.3 ba-lds-0.1.0 numpy-2.5.3 scipy-1.18.1

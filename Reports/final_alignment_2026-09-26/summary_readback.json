@@ -1,0 +1,8 @@
+{
+  "aggregates": 119,
+  "sensitivity_rows": 476,
+  "summary_estimates_equal": true,
+  "sensitivity_estimates_equal": true,
+  "global_selection_equal": true,
+  "bootstrap_change": "New optional CIs resample generation independently within model, validation IDs together with each seed valid set; no cross-seed intersection shrinkage. Paper tables use seed SD; unchanged."
+}

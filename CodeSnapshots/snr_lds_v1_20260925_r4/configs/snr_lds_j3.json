@@ -1,0 +1,32 @@
+{
+  "task_id": "SNR_LDS_CPU_JINXU3_20260925",
+  "attempt_id": "j3-snr-a3",
+  "host": "jinxulin-lab3",
+  "rule": "snr_zero_mean_gaussian_v1",
+  "zetas": [1, 2, 3, 4],
+  "primary_zeta": 3,
+  "bootstrap_count": 2000,
+  "bootstrap_seed": 20260920,
+  "python": "/home/jinxulin/CFA-envs/e3c-torch260/bin/python",
+  "data_root": "/home/jinxulin/CFA/_Data",
+  "output_root": "/home/jinxulin/CFA/_Data/results/snr_lds_20260925/a3",
+  "datasets": ["cifar2_5k", "cifar10_v2", "cifar2_das", "artbench2_256"],
+  "source_manifests": [
+    "results/ba_c2_c10_das_presquare_20260922/inputs/bench_manifest.json",
+    "results/c10_cpu_closeout_20260923/inputs/bench_manifest.json",
+    "results/ddpm_noncore_val_repair_20260924/cpu/ba_manifest.json",
+    "results/ddpm_noncore_val_repair_20260924/shared_gpu/ba_manifest.json"
+  ],
+  "utility_table": "results/lds_nextwave_20260920/j3/a1/e2/e2_per_query.tsv",
+  "pilot_manifest": "/home/jinxulin/BA-LDS/Reports/evidence/r16_pilots.json",
+  "resources": {
+    "CUDA_VISIBLE_DEVICES": "",
+    "OMP_NUM_THREADS": "4",
+    "MKL_NUM_THREADS": "4",
+    "OPENBLAS_NUM_THREADS": "4",
+    "NUMEXPR_NUM_THREADS": "4",
+    "PYTHONUNBUFFERED": "1",
+    "workers": 1
+  },
+  "formal_launch_authorized": false
+}

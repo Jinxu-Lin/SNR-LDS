@@ -1,0 +1,34 @@
+{
+  "package_version": "0.2.0",
+  "cpu_suite": {
+    "passed": 326,
+    "warnings": 22,
+    "seconds": 59.4,
+    "log": "final-tests.txt"
+  },
+  "dependency_layers": {
+    "modules": 90,
+    "verdict": "pass"
+  },
+  "base_wheel": {
+    "passed": 32,
+    "torch_installed": false,
+    "version": "0.2.0",
+    "outside_checkout": true,
+    "log": "public-wheel-tests.txt"
+  },
+  "saved_snr_queries": 24300,
+  "saved_snr_verdict": "pass",
+  "retrieval_test_query_metrics": 10400,
+  "retrieval_printed_cells_verified": 572,
+  "artifact_files_copied": 64703,
+  "artifact_bytes_copied": 62058529525,
+  "new_model_training": false,
+  "source_and_paper": "unchanged by this task",
+  "scope_limitations": [
+    "four author-only rounded DDPM means without per-query artifacts; Journey DDPM generation missing",
+    "Paper CFM fine/coarse prose uses older numbers than accepted final tables",
+    "stable head tie-break regenerates slight differences from historical argpartition points",
+    "Table10 projected CPU recomputation has small drift; curvature rows match"
+  ]
+}

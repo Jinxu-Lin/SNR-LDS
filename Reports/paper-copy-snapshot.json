@@ -1,0 +1,11 @@
+{
+  "snapshot_utc": "2026-09-22T08:02:52.537386+00:00",
+  "source_read_only": true,
+  "refreshed_during_live_editing": [
+    "ICLR/Sections/05_Experiment.tex"
+  ],
+  "final_snapshot_utc": "2026-09-22T08:14:03.500129+00:00",
+  "final_refreshed_files": [
+    "ICLR/Sections/05_Experiment.tex"
+  ]
+}

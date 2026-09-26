@@ -1,0 +1,7 @@
+{
+  "python": "3.12.12 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 20:16:04) [GCC 11.2.0]",
+  "version": "0.2.0",
+  "package": "/tmp/balds-public-install-vje1xc5n/venv/lib/python3.12/site-packages/balds/__init__.py",
+  "torch_installed": false,
+  "execution_cwd": "/tmp"
+}

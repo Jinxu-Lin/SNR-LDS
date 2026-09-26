@@ -1,0 +1,57 @@
+{
+  "date": "2026-09-26",
+  "authoritative_paper": "Paper/iclr2027_conference.tex",
+  "initial_destination_artifacts": 0,
+  "source_mutations": false,
+  "destination_existing_files_overwritten": false,
+  "default_profiles": [
+    "analysis",
+    "regeneration"
+  ],
+  "scientific_changes": [
+    {
+      "from": "density-based BA-LDS variants",
+      "to": "zero-mean Gaussian amplitude-SNR, strict threshold3",
+      "action": "copy accepted A3 query fits/masks/predictions and A4 summaries; historical BA outputs excluded"
+    },
+    {
+      "from": "CFM common200 or oldv1 full400",
+      "to": "reviewed500 v2,100validation400test,13methods",
+      "action": "current11native scores plus isolated2curvature outputs and all validation lambda grids"
+    },
+    {
+      "from": "old R16 median-like Rep description",
+      "to": "VarRatio=sum(sample_variances)/sum(repeat_means^2)",
+      "action": "retain exact64repeat arrays, independentpilot, coordinate means/std/bands; use new figure scripts and existing figure_split CSV"
+    },
+    {
+      "from": "AB2IF incomplete",
+      "to": "accepted complete5000x100 score matrices and trackwise oracle damping",
+      "action": "copy finalmatrices/grid, exclude35.6GiB eigen-coordinate cache"
+    },
+    {
+      "from": "expanded baselines PW-DTRAK/AbU/NDA and several appendices",
+      "to": "final included16benchmark/13retrieval methods and includedfiguretable graph",
+      "action": "do not copy retired method outputs, support-range sweeps, DDPM1000extension-only results"
+    }
+  ],
+  "path_policy": "Core relative addresses preserved. Existing JSON provenance untouched; active code resolves legacy absolute input paths relative to current data root.",
+  "copy_policy": "independent files; no hardlinks/symlinks; no source deletion; existing targets never overwritten",
+  "optional_banks": [
+    "subset checkpoint bank",
+    "deletion checkpoint bank",
+    "external SD3.5 pretrained cache"
+  ],
+  "unresolved": [
+    {
+      "id": "ddpm_tracincp_gas_final_per_query",
+      "count": 4,
+      "state": "published author-supplied means; matching per-query current score/SNR outputs missing locally"
+    },
+    {
+      "id": "ddpm_journey_generation",
+      "count": 1,
+      "state": "no compatible query/response benchmark result"
+    }
+  ]
+}

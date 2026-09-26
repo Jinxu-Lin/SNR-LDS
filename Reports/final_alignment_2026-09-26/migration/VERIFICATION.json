@@ -1,0 +1,2437 @@
+{
+  "copied_files": 64703,
+  "copied_bytes": 62058529525,
+  "copied_gib": 57.79650949407369,
+  "independent_inode_and_metadata_issues": [],
+  "array_headers_checked": 303,
+  "array_headers": [
+    {
+      "path": "_Data/results/cfm_test400_20260923/analysis/ekfac_if/test400_scores.npy",
+      "shape": [
+        50000,
+        400
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/results/cfm_test400_20260923/analysis/fmas_raw/test400_scores.npy",
+      "shape": [
+        50000,
+        400
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/results/cfm_val100_20260923/incoming/xc3-fmas/fmas_raw/val_scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/results/cfm_val100_20260923/incoming/xc3-fmas/scores/fmas_raw/cifar10_inj4_inject/seed_42/scores_lambda_1.00e+00.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/results/cfm_val100_20260923/incoming/xc3-fmas/scores/fmas_raw/cifar10_inj4_inject/seed_42/scores_lambda_1.00e-01.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/results/cfm_val100_20260923/incoming/xc3-fmas/scores/fmas_raw/cifar10_inj4_inject/seed_42/scores_lambda_1.00e-02.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/results/cfm_val100_20260923/incoming/xc3-fmas/scores/fmas_raw/cifar10_inj4_inject/seed_42/scores_lambda_1.00e-03.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/results/cfm_val100_20260923/incoming/xc3-fmas/scores/fmas_raw/cifar10_inj4_inject/seed_42/scores_lambda_1.00e-04.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/results/cfm_val100_20260923/incoming/xc3-if/ekfac_if/val_scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/results/cfm_val100_20260923/incoming/xc3-if/scores/ekfac_if/cifar10_inj4_inject/seed_42/scores_lambda_1.00e-04.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/results/cfm_val100_20260923/incoming/xc3-if/scores/ekfac_if/cifar10_inj4_inject/seed_42/scores_lambda_1.00e-05.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/results/cfm_val100_20260923/incoming/xc3-if/scores/ekfac_if/cifar10_inj4_inject/seed_42/scores_lambda_1.00e-06.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/results/cfm_val100_20260923/incoming/xc3-if/scores/ekfac_if/cifar10_inj4_inject/seed_42/scores_lambda_1.00e-07.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/results/cfm_val100_20260923/incoming/xc3-if/scores/ekfac_if/cifar10_inj4_inject/seed_42/scores_lambda_1.00e-08.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/results/cfm_val100_20260923/incoming/xc3-if/scores/ekfac_if/cifar10_inj4_inject/seed_42/scores_lambda_1.00e-09.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/results/cfm_val100_20260923/incoming/xc3-if/scores/ekfac_if/cifar10_inj4_inject/seed_42/scores_lambda_1.00e-10.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/results/cfm_val100_20260923/incoming/xc3-if/scores/ekfac_if/cifar10_inj4_inject/seed_42/scores_lambda_1.00e-11.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/results/cfm_val100_20260923/incoming/xc3-if/scores/ekfac_if/cifar10_inj4_inject/seed_42/scores_lambda_1.00e-12.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/results/cfm_val100_20260923/incoming/xc3-if/scores/ekfac_if/cifar10_inj4_inject/seed_42/scores_lambda_1.00e-13.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/results/runpod_ddpm_source_20260923/score/test/scores/ekfac_if/cifar10_inj4_inject/ddpm/seed_42/scores.npy",
+      "shape": [
+        50000,
+        400
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/results/runpod_ddpm_source_20260923/score/test/scores/fmas_raw/cifar10_inj4_inject/ddpm/seed_42/scores.npy",
+      "shape": [
+        50000,
+        400
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/results/runpod_ddpm_source_20260923/score/val/scores/ekfac_if/cifar10_inj4_inject/ddpm/seed_42/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/results/runpod_ddpm_source_20260923/score/val/scores/ekfac_if/cifar10_inj4_inject/ddpm/seed_42/scores_lambda_1.00e-04.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/results/runpod_ddpm_source_20260923/score/val/scores/ekfac_if/cifar10_inj4_inject/ddpm/seed_42/scores_lambda_1.00e-05.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/results/runpod_ddpm_source_20260923/score/val/scores/ekfac_if/cifar10_inj4_inject/ddpm/seed_42/scores_lambda_1.00e-06.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/results/runpod_ddpm_source_20260923/score/val/scores/ekfac_if/cifar10_inj4_inject/ddpm/seed_42/scores_lambda_1.00e-07.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/results/runpod_ddpm_source_20260923/score/val/scores/ekfac_if/cifar10_inj4_inject/ddpm/seed_42/scores_lambda_1.00e-08.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/results/runpod_ddpm_source_20260923/score/val/scores/ekfac_if/cifar10_inj4_inject/ddpm/seed_42/scores_lambda_1.00e-09.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/results/runpod_ddpm_source_20260923/score/val/scores/ekfac_if/cifar10_inj4_inject/ddpm/seed_42/scores_lambda_1.00e-10.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/results/runpod_ddpm_source_20260923/score/val/scores/ekfac_if/cifar10_inj4_inject/ddpm/seed_42/scores_lambda_1.00e-11.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/results/runpod_ddpm_source_20260923/score/val/scores/ekfac_if/cifar10_inj4_inject/ddpm/seed_42/scores_lambda_1.00e-12.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/results/runpod_ddpm_source_20260923/score/val/scores/ekfac_if/cifar10_inj4_inject/ddpm/seed_42/scores_lambda_1.00e-13.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/results/runpod_ddpm_source_20260923/score/val/scores/fmas_raw/cifar10_inj4_inject/ddpm/seed_42/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/results/runpod_ddpm_source_20260923/score/val/scores/fmas_raw/cifar10_inj4_inject/ddpm/seed_42/scores_lambda_1.00e+00.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/results/runpod_ddpm_source_20260923/score/val/scores/fmas_raw/cifar10_inj4_inject/ddpm/seed_42/scores_lambda_1.00e-01.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/results/runpod_ddpm_source_20260923/score/val/scores/fmas_raw/cifar10_inj4_inject/ddpm/seed_42/scores_lambda_1.00e-02.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/results/runpod_ddpm_source_20260923/score/val/scores/fmas_raw/cifar10_inj4_inject/ddpm/seed_42/scores_lambda_1.00e-03.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/results/runpod_ddpm_source_20260923/score/val/scores/fmas_raw/cifar10_inj4_inject/ddpm/seed_42/scores_lambda_1.00e-04.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/results/snr_lds_20260925/a3/inputs/artbench2_256/gen/das_presquare_lambda1.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float64"
+    },
+    {
+      "path": "_Data/results/snr_lds_20260925/a3/inputs/artbench2_256/val/das_presquare_lambda1.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float64"
+    },
+    {
+      "path": "_Data/scores/clip_cos/artbench2_256/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/clip_cos/artbench2_256_val/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/clip_cos/cifar10_inj4_inject/ddpm/seed_42/scores.npy",
+      "shape": [
+        50000,
+        500
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/clip_cos/cifar10_inj4_inject/seed_42/scores.npy",
+      "shape": [
+        50000,
+        500
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/clip_cos/cifar10_v2/seed_123/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/clip_cos/cifar10_v2/seed_42/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/clip_cos/cifar10_v2/seed_456/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/clip_cos/cifar10_v2_val/seed_123/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/clip_cos/cifar10_v2_val/seed_42/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/clip_cos/cifar10_v2_val/seed_456/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/clip_cos/cifar2_5k/seed_123/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/clip_cos/cifar2_5k/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/clip_cos/cifar2_5k/seed_456/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/clip_cos/cifar2_5k_val/seed_123/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/clip_cos/cifar2_5k_val/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/clip_cos/cifar2_5k_val/seed_456/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/clip_cos/cifar2_das/ddpm/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/clip_cos/cifar2_das_val/ddpm/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/clip_dot/artbench2_256/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/clip_dot/artbench2_256_val/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/clip_dot/cifar10_inj4_inject/ddpm/seed_42/scores.npy",
+      "shape": [
+        50000,
+        500
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/clip_dot/cifar10_inj4_inject/seed_42/scores.npy",
+      "shape": [
+        50000,
+        500
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/clip_dot/cifar10_v2/seed_123/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/clip_dot/cifar10_v2/seed_42/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/clip_dot/cifar10_v2/seed_456/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/clip_dot/cifar10_v2_val/seed_123/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/clip_dot/cifar10_v2_val/seed_42/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/clip_dot/cifar10_v2_val/seed_456/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/clip_dot/cifar2_5k/seed_123/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/clip_dot/cifar2_5k/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/clip_dot/cifar2_5k/seed_456/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/clip_dot/cifar2_5k_val/seed_123/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/clip_dot/cifar2_5k_val/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/clip_dot/cifar2_5k_val/seed_456/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/clip_dot/cifar2_das/ddpm/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/clip_dot/cifar2_das_val/ddpm/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/das_T100/cifar10_inj4_inject/ddpm/seed_42/scores.npy",
+      "shape": [
+        50000,
+        500
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/das_T100/cifar10_inj4_inject/seed_42/scores.npy",
+      "shape": [
+        50000,
+        500
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/das_T100/cifar10_v2/seed_123/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/das_T100/cifar10_v2/seed_42/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/das_T100/cifar10_v2/seed_456/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/das_T100/cifar10_v2_val/seed_123/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/das_T100/cifar10_v2_val/seed_42/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/das_T100/cifar10_v2_val/seed_456/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/das_T100/cifar2_5k/seed_123/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/das_T100/cifar2_5k/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/das_T100/cifar2_5k/seed_456/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/das_T100/cifar2_5k_val/seed_123/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/das_T100/cifar2_5k_val/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/das_T100/cifar2_5k_val/seed_456/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/das_T100/cifar2_das/ddpm/seed_42/scores.npy",
+      "shape": [
+        5000,
+        1000
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/das_T100/cifar2_das_val/ddpm/seed_42/scores.npy",
+      "shape": [
+        5000,
+        1000
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/dtrak_T100/artbench2_256/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/dtrak_T100/artbench2_256_val/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/dtrak_T100/cifar10_inj4_inject/ddpm/seed_42/scores.npy",
+      "shape": [
+        50000,
+        500
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/dtrak_T100/cifar10_inj4_inject/seed_42/scores.npy",
+      "shape": [
+        50000,
+        500
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/dtrak_T100/cifar10_v2/seed_123/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/dtrak_T100/cifar10_v2/seed_42/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/dtrak_T100/cifar10_v2/seed_456/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/dtrak_T100/cifar10_v2_val/seed_123/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/dtrak_T100/cifar10_v2_val/seed_42/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/dtrak_T100/cifar10_v2_val/seed_456/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/dtrak_T100/cifar2_5k/seed_123/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/dtrak_T100/cifar2_5k/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/dtrak_T100/cifar2_5k/seed_456/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/dtrak_T100/cifar2_5k_val/seed_123/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/dtrak_T100/cifar2_5k_val/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/dtrak_T100/cifar2_5k_val/seed_456/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/dtrak_T100/cifar2_das/ddpm/seed_42/scores.npy",
+      "shape": [
+        5000,
+        1000
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/dtrak_T100/cifar2_das_val/ddpm/seed_42/scores.npy",
+      "shape": [
+        5000,
+        1000
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/ekfac_if/artbench2_256/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/ekfac_if/artbench2_256_val/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/ekfac_if/cifar10_v2/seed_123/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/ekfac_if/cifar10_v2/seed_42/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/ekfac_if/cifar10_v2/seed_456/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/ekfac_if/cifar10_v2_val/seed_123/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/ekfac_if/cifar10_v2_val/seed_42/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/ekfac_if/cifar10_v2_val/seed_456/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/ekfac_if/cifar2_5k/seed_123/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/ekfac_if/cifar2_5k/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/ekfac_if/cifar2_5k/seed_456/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/ekfac_if/cifar2_5k_val/seed_123/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/ekfac_if/cifar2_5k_val/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/ekfac_if/cifar2_5k_val/seed_456/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/ekfac_if/cifar2_das/ddpm/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/ekfac_if/cifar2_das_val/ddpm/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/fmas_raw/artbench2_256/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/fmas_raw/artbench2_256_val/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/fmas_raw/cifar10_v2/seed_123/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/fmas_raw/cifar10_v2/seed_42/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/fmas_raw/cifar10_v2/seed_456/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/fmas_raw/cifar10_v2_val/seed_123/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/fmas_raw/cifar10_v2_val/seed_42/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/fmas_raw/cifar10_v2_val/seed_456/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/fmas_raw/cifar2_5k/seed_123/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/fmas_raw/cifar2_5k/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/fmas_raw/cifar2_5k/seed_456/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/fmas_raw/cifar2_5k_val/seed_123/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/fmas_raw/cifar2_5k_val/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/fmas_raw/cifar2_5k_val/seed_456/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/fmas_raw/cifar2_das/ddpm/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/fmas_raw/cifar2_das_val/ddpm/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/gas_T100/artbench2_256/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/gas_T100/artbench2_256_val/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/gas_T100/cifar10_v2/seed_123/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/gas_T100/cifar10_v2/seed_42/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/gas_T100/cifar10_v2/seed_456/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/gas_T100/cifar10_v2_val/seed_123/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/gas_T100/cifar10_v2_val/seed_42/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/gas_T100/cifar10_v2_val/seed_456/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/gas_T100/cifar2_5k/seed_123/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/gas_T100/cifar2_5k/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/gas_T100/cifar2_5k/seed_456/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/gas_T100/cifar2_5k_val/seed_123/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/gas_T100/cifar2_5k_val/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/gas_T100/cifar2_5k_val/seed_456/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/grad_cos_T100/artbench2_256/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/grad_cos_T100/artbench2_256_val/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/grad_cos_T100/cifar10_inj4_inject/ddpm/seed_42/scores.npy",
+      "shape": [
+        50000,
+        500
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/grad_cos_T100/cifar10_inj4_inject/seed_42/scores.npy",
+      "shape": [
+        50000,
+        500
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/grad_cos_T100/cifar10_v2/seed_123/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/grad_cos_T100/cifar10_v2/seed_42/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/grad_cos_T100/cifar10_v2/seed_456/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/grad_cos_T100/cifar10_v2_val/seed_123/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/grad_cos_T100/cifar10_v2_val/seed_42/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/grad_cos_T100/cifar10_v2_val/seed_456/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/grad_cos_T100/cifar2_5k/seed_123/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/grad_cos_T100/cifar2_5k/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/grad_cos_T100/cifar2_5k/seed_456/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/grad_cos_T100/cifar2_5k_val/seed_123/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/grad_cos_T100/cifar2_5k_val/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/grad_cos_T100/cifar2_5k_val/seed_456/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/grad_cos_T100/cifar2_das/ddpm/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/grad_cos_T100/cifar2_das_val/ddpm/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/grad_dot_T100/artbench2_256/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/grad_dot_T100/artbench2_256_val/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/grad_dot_T100/cifar10_inj4_inject/ddpm/seed_42/scores.npy",
+      "shape": [
+        50000,
+        500
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/grad_dot_T100/cifar10_inj4_inject/seed_42/scores.npy",
+      "shape": [
+        50000,
+        500
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/grad_dot_T100/cifar10_v2/seed_123/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/grad_dot_T100/cifar10_v2/seed_42/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/grad_dot_T100/cifar10_v2/seed_456/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/grad_dot_T100/cifar10_v2_val/seed_123/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/grad_dot_T100/cifar10_v2_val/seed_42/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/grad_dot_T100/cifar10_v2_val/seed_456/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/grad_dot_T100/cifar2_5k/seed_123/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/grad_dot_T100/cifar2_5k/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/grad_dot_T100/cifar2_5k/seed_456/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/grad_dot_T100/cifar2_5k_val/seed_123/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/grad_dot_T100/cifar2_5k_val/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/grad_dot_T100/cifar2_5k_val/seed_456/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/grad_dot_T100/cifar2_das/ddpm/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/grad_dot_T100/cifar2_das_val/ddpm/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/journey_trak_T100/artbench2_256/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/journey_trak_T100/cifar10_v2/seed_123/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/journey_trak_T100/cifar10_v2/seed_42/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/journey_trak_T100/cifar10_v2/seed_456/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/journey_trak_T100/cifar2_5k/seed_123/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/journey_trak_T100/cifar2_5k/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/journey_trak_T100/cifar2_5k/seed_456/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/pixel_cos/artbench2_256/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/pixel_cos/artbench2_256_val/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/pixel_cos/cifar10_inj4_inject/ddpm/seed_42/scores.npy",
+      "shape": [
+        50000,
+        500
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/pixel_cos/cifar10_inj4_inject/seed_42/scores.npy",
+      "shape": [
+        50000,
+        500
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/pixel_cos/cifar10_v2/seed_123/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/pixel_cos/cifar10_v2/seed_42/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/pixel_cos/cifar10_v2/seed_456/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/pixel_cos/cifar10_v2_val/seed_123/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/pixel_cos/cifar10_v2_val/seed_42/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/pixel_cos/cifar10_v2_val/seed_456/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/pixel_cos/cifar2_5k/seed_123/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/pixel_cos/cifar2_5k/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/pixel_cos/cifar2_5k/seed_456/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/pixel_cos/cifar2_5k_val/seed_123/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/pixel_cos/cifar2_5k_val/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/pixel_cos/cifar2_5k_val/seed_456/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/pixel_cos/cifar2_das/ddpm/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/pixel_cos/cifar2_das_val/ddpm/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/pixel_dot/artbench2_256/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/pixel_dot/artbench2_256_val/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/pixel_dot/cifar10_inj4_inject/ddpm/seed_42/scores.npy",
+      "shape": [
+        50000,
+        500
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/pixel_dot/cifar10_inj4_inject/seed_42/scores.npy",
+      "shape": [
+        50000,
+        500
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/pixel_dot/cifar10_v2/seed_123/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/pixel_dot/cifar10_v2/seed_42/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/pixel_dot/cifar10_v2/seed_456/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/pixel_dot/cifar10_v2_val/seed_123/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/pixel_dot/cifar10_v2_val/seed_42/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/pixel_dot/cifar10_v2_val/seed_456/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/pixel_dot/cifar2_5k/seed_123/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/pixel_dot/cifar2_5k/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/pixel_dot/cifar2_5k/seed_456/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/pixel_dot/cifar2_5k_val/seed_123/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/pixel_dot/cifar2_5k_val/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/pixel_dot/cifar2_5k_val/seed_456/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/pixel_dot/cifar2_das/ddpm/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/pixel_dot/cifar2_das_val/ddpm/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/relative_if_T100/artbench2_256/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/relative_if_T100/artbench2_256_val/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/relative_if_T100/cifar10_inj4_inject/ddpm/seed_42/scores.npy",
+      "shape": [
+        50000,
+        500
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/relative_if_T100/cifar10_inj4_inject/seed_42/scores.npy",
+      "shape": [
+        50000,
+        500
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/relative_if_T100/cifar10_v2/seed_123/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/relative_if_T100/cifar10_v2/seed_42/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/relative_if_T100/cifar10_v2/seed_456/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/relative_if_T100/cifar10_v2_val/seed_123/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/relative_if_T100/cifar10_v2_val/seed_42/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/relative_if_T100/cifar10_v2_val/seed_456/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/relative_if_T100/cifar2_5k/seed_123/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/relative_if_T100/cifar2_5k/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/relative_if_T100/cifar2_5k/seed_456/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/relative_if_T100/cifar2_5k_val/seed_123/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/relative_if_T100/cifar2_5k_val/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/relative_if_T100/cifar2_5k_val/seed_456/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/relative_if_T100/cifar2_das/ddpm/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/relative_if_T100/cifar2_das_val/ddpm/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/renorm_if_T100/artbench2_256/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/renorm_if_T100/artbench2_256_val/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/renorm_if_T100/cifar10_inj4_inject/ddpm/seed_42/scores.npy",
+      "shape": [
+        50000,
+        500
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/renorm_if_T100/cifar10_inj4_inject/seed_42/scores.npy",
+      "shape": [
+        50000,
+        500
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/renorm_if_T100/cifar10_v2/seed_123/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/renorm_if_T100/cifar10_v2/seed_42/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/renorm_if_T100/cifar10_v2/seed_456/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/renorm_if_T100/cifar10_v2_val/seed_123/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/renorm_if_T100/cifar10_v2_val/seed_42/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/renorm_if_T100/cifar10_v2_val/seed_456/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/renorm_if_T100/cifar2_5k/seed_123/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/renorm_if_T100/cifar2_5k/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/renorm_if_T100/cifar2_5k/seed_456/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/renorm_if_T100/cifar2_5k_val/seed_123/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/renorm_if_T100/cifar2_5k_val/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/renorm_if_T100/cifar2_5k_val/seed_456/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/renorm_if_T100/cifar2_das/ddpm/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/renorm_if_T100/cifar2_das_val/ddpm/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/tracincp_T100/artbench2_256/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/tracincp_T100/artbench2_256_val/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/tracincp_T100/cifar10_v2/seed_123/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/tracincp_T100/cifar10_v2/seed_42/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/tracincp_T100/cifar10_v2/seed_456/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/tracincp_T100/cifar10_v2_val/seed_123/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/tracincp_T100/cifar10_v2_val/seed_42/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/tracincp_T100/cifar10_v2_val/seed_456/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/tracincp_T100/cifar2_5k/seed_123/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/tracincp_T100/cifar2_5k/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/tracincp_T100/cifar2_5k/seed_456/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/tracincp_T100/cifar2_5k_val/seed_123/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/tracincp_T100/cifar2_5k_val/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/tracincp_T100/cifar2_5k_val/seed_456/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/trak_T100/artbench2_256/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/trak_T100/artbench2_256_val/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/trak_T100/cifar10_inj4_inject/ddpm/seed_42/scores.npy",
+      "shape": [
+        50000,
+        500
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/trak_T100/cifar10_inj4_inject/seed_42/scores.npy",
+      "shape": [
+        50000,
+        500
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/trak_T100/cifar10_v2/seed_123/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/trak_T100/cifar10_v2/seed_42/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/trak_T100/cifar10_v2/seed_456/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/trak_T100/cifar10_v2_val/seed_123/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/trak_T100/cifar10_v2_val/seed_42/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/trak_T100/cifar10_v2_val/seed_456/scores.npy",
+      "shape": [
+        50000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/trak_T100/cifar2_5k/seed_123/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/trak_T100/cifar2_5k/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/trak_T100/cifar2_5k/seed_456/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/trak_T100/cifar2_5k_val/seed_123/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/trak_T100/cifar2_5k_val/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/trak_T100/cifar2_5k_val/seed_456/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/trak_T100/cifar2_das/ddpm/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "_Data/scores/trak_T100/cifar2_das_val/ddpm/seed_42/scores.npy",
+      "shape": [
+        5000,
+        100
+      ],
+      "dtype": "float32"
+    }
+  ],
+  "destination_registry_rows": 797,
+  "destination_registry_missing_or_size_mismatch": [],
+  "free_bytes_after_copy": 100383088640,
+  "verification_scope": "Metadata, separate inodes, array headers, selected dependency paths and existing registry only; no new hash/model/scientific experiment/remote access."
+}

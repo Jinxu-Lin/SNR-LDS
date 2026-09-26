@@ -1,0 +1,256 @@
+{
+  "differences": [],
+  "numeric_cells": 572,
+  "rounding_boundary_cells": [
+    {
+      "column": 2,
+      "method": "ekfac_if",
+      "metric": "recall_at_k_global",
+      "printed": 0.2497,
+      "reproduced": 0.24964999999999998,
+      "table": 2
+    },
+    {
+      "column": 0,
+      "method": "trak_T100",
+      "metric": "recall_at_k_global",
+      "printed": 0.1182,
+      "reproduced": 0.11815,
+      "table": 2
+    },
+    {
+      "column": 0,
+      "method": "clip_cos",
+      "metric": "recall_at_k_global",
+      "printed": 0.1429,
+      "reproduced": 0.14285,
+      "table": 2
+    },
+    {
+      "column": 2,
+      "method": "clip_cos",
+      "metric": "recall_at_k_global",
+      "printed": 0.13,
+      "reproduced": 0.12995,
+      "table": 2
+    },
+    {
+      "column": 0,
+      "method": "fmas_raw",
+      "metric": "recall_at_k_global",
+      "printed": 0.062,
+      "reproduced": 0.0615,
+      "table": 18
+    },
+    {
+      "column": 4,
+      "method": "fmas_raw",
+      "metric": "recall_at_k_global",
+      "printed": 0.116,
+      "reproduced": 0.1155,
+      "table": 18
+    },
+    {
+      "column": 5,
+      "method": "ekfac_if",
+      "metric": "recall_at_k_global",
+      "printed": 0.69,
+      "reproduced": 0.6895,
+      "table": 18
+    },
+    {
+      "column": 7,
+      "method": "ekfac_if",
+      "metric": "recall_at_k_global",
+      "printed": 0.079,
+      "reproduced": 0.07850000000000001,
+      "table": 18
+    },
+    {
+      "column": 4,
+      "method": "trak_T100",
+      "metric": "recall_at_k_global",
+      "printed": 0.076,
+      "reproduced": 0.0765,
+      "table": 18
+    },
+    {
+      "column": 6,
+      "method": "clip_cos",
+      "metric": "recall_at_k_global",
+      "printed": 0.325,
+      "reproduced": 0.3245,
+      "table": 18
+    },
+    {
+      "column": 7,
+      "method": "clip_cos",
+      "metric": "recall_at_k_global",
+      "printed": 0.044,
+      "reproduced": 0.0445,
+      "table": 18
+    },
+    {
+      "column": 0,
+      "method": "pixel_cos",
+      "metric": "recall_at_k_global",
+      "printed": 0.007,
+      "reproduced": 0.006500000000000001,
+      "table": 18
+    },
+    {
+      "column": 4,
+      "method": "pixel_cos",
+      "metric": "recall_at_k_global",
+      "printed": 0.008,
+      "reproduced": 0.008499999999999999,
+      "table": 18
+    },
+    {
+      "column": 5,
+      "method": "pixel_cos",
+      "metric": "recall_at_k_global",
+      "printed": 0.077,
+      "reproduced": 0.0775,
+      "table": 18
+    },
+    {
+      "column": 5,
+      "method": "pixel_dot",
+      "metric": "recall_at_k_global",
+      "printed": 0.002,
+      "reproduced": 0.0015,
+      "table": 18
+    },
+    {
+      "column": 2,
+      "method": "grad_cos_T100",
+      "metric": "recall_at_k_global",
+      "printed": 0.009,
+      "reproduced": 0.0095,
+      "table": 18
+    },
+    {
+      "column": 6,
+      "method": "renorm_if_T100",
+      "metric": "recall_at_k_global",
+      "printed": 0.276,
+      "reproduced": 0.27649999999999997,
+      "table": 18
+    },
+    {
+      "column": 9,
+      "method": "renorm_if_T100",
+      "metric": "recall_at_k_global",
+      "printed": 0.146,
+      "reproduced": 0.1465,
+      "table": 18
+    },
+    {
+      "column": 7,
+      "method": "fmas_raw",
+      "metric": "recall_at_k_global",
+      "printed": 0.136,
+      "reproduced": 0.1355,
+      "table": 19
+    },
+    {
+      "column": 1,
+      "method": "ekfac_if",
+      "metric": "recall_at_k_global",
+      "printed": 0.086,
+      "reproduced": 0.08549999999999999,
+      "table": 19
+    },
+    {
+      "column": 1,
+      "method": "dtrak_T100",
+      "metric": "recall_at_k_global",
+      "printed": 0.068,
+      "reproduced": 0.0675,
+      "table": 19
+    },
+    {
+      "column": 8,
+      "method": "dtrak_T100",
+      "metric": "recall_at_k_global",
+      "printed": 0.11,
+      "reproduced": 0.1095,
+      "table": 19
+    },
+    {
+      "column": 1,
+      "method": "das_T100",
+      "metric": "recall_at_k_global",
+      "printed": 0.062,
+      "reproduced": 0.0625,
+      "table": 19
+    },
+    {
+      "column": 3,
+      "method": "clip_cos",
+      "metric": "recall_at_k_global",
+      "printed": 0.053,
+      "reproduced": 0.052500000000000005,
+      "table": 19
+    },
+    {
+      "column": 0,
+      "method": "pixel_cos",
+      "metric": "recall_at_k_global",
+      "printed": 0.004,
+      "reproduced": 0.0035000000000000005,
+      "table": 19
+    },
+    {
+      "column": 1,
+      "method": "pixel_cos",
+      "metric": "recall_at_k_global",
+      "printed": 0.007,
+      "reproduced": 0.006500000000000001,
+      "table": 19
+    },
+    {
+      "column": 3,
+      "method": "pixel_dot",
+      "metric": "recall_at_k_global",
+      "printed": 0.003,
+      "reproduced": 0.0025,
+      "table": 19
+    },
+    {
+      "column": 5,
+      "method": "pixel_dot",
+      "metric": "recall_at_k_global",
+      "printed": 0.002,
+      "reproduced": 0.0015,
+      "table": 19
+    },
+    {
+      "column": 2,
+      "method": "grad_dot_T100",
+      "metric": "recall_at_k_global",
+      "printed": 0.006,
+      "reproduced": 0.0055000000000000005,
+      "table": 19
+    },
+    {
+      "column": 4,
+      "method": "renorm_if_T100",
+      "metric": "recall_at_k_global",
+      "printed": 0.05,
+      "reproduced": 0.0495,
+      "table": 19
+    },
+    {
+      "column": 7,
+      "method": "renorm_if_T100",
+      "metric": "recall_at_k_global",
+      "printed": 0.03,
+      "reproduced": 0.029500000000000005,
+      "table": 19
+    }
+  ],
+  "rule": "absolute error <= half the last printed decimal unit + 1e-12",
+  "status": "pass"
+}

@@ -1,0 +1,26 @@
+{
+  "status": "produced",
+  "output": "/path/to/BA-LDS/_Data/results/paper/figures/Fig3/snr-readouts.tex",
+  "endpoints": {
+    "fmas_raw": {
+      "native_5": 44.9251452497069,
+      "native_100": 44.538021957005434,
+      "square_minus_linear_100": 0.3140147718704682
+    },
+    "ekfac_if": {
+      "native_5": 43.456329367414924,
+      "native_100": 43.311473875997706,
+      "square_minus_linear_100": -0.5001833627328907
+    },
+    "dtrak_T100": {
+      "native_5": 44.50320512820512,
+      "native_100": 44.49618437118437,
+      "square_minus_linear_100": -0.09354395604395904
+    },
+    "das_native_sq": {
+      "native_5": 43.58881257631257,
+      "native_100": 43.733165445665435,
+      "square_minus_linear_100": 0.010943223443213412
+    }
+  }
+}

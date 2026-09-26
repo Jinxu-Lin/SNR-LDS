@@ -1,0 +1,48 @@
+# Data and manuscript stay local, including copies in report archives.
+/_Data/
+/Paper/
+/Reports/**/Paper/
+/Reports/**/Figures/
+/Reports/**/render/
+/Reports/**/*.tex
+/Reports/**/*.bib
+/Reports/**/*.sty
+/Reports/**/*.bst
+/Reports/**/*.pdf
+/Reports/**/*.png
+/Reports/**/*.patch
+
+# Model weights, features, arrays, and dataset artifacts.
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.parquet
+*.arrow
+
+# Local Python environments, caches, and build products.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+build/
+dist/
+*.egg-info/
+.DS_Store
+
+# Local credentials. Example templates may be committed.
+.env
+.env.*
+!.env.example
+!.env.template
+*.pem
+*.key

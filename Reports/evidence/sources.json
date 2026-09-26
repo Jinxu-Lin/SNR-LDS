@@ -1,0 +1,241 @@
+{
+  "snapshot_date": "2026-09-22",
+  "source_root_role": "CFA source project; all paths relative, no runtime host dependency",
+  "no_experiments_executed": true,
+  "DAS_warning": "Historical acceptance is not acceptance of the clarified fit-t aggregate-t-squared rule.",
+  "groups": [
+    {
+      "id": "paper",
+      "sources": [
+        {
+          "path": "Paper/ICLR/iclr2027_conference.tex",
+          "present_at_audit": true
+        },
+        {
+          "path": "Paper/ICLR/Sections/04_Method.tex",
+          "present_at_audit": true
+        },
+        {
+          "path": "Paper/ICLR/Sections/05_Experiment.tex",
+          "present_at_audit": true
+        },
+        {
+          "path": "Paper/ICLR/Sections/XY04_MechanismExperiment.tex",
+          "present_at_audit": true
+        },
+        {
+          "path": "Paper/ICLR/Sections/XY05_EvaluationExperiments.tex",
+          "present_at_audit": true
+        }
+      ]
+    },
+    {
+      "id": "ledger",
+      "sources": [
+        {
+          "path": "Experiment/experiment_v2.md",
+          "present_at_audit": true
+        },
+        {
+          "path": "Experiment/experiment.qmd",
+          "present_at_audit": true
+        }
+      ]
+    },
+    {
+      "id": "M1",
+      "sources": [
+        {
+          "path": "_Data/reports/author_fig1_completion_2026-09-21",
+          "present_at_audit": true
+        }
+      ]
+    },
+    {
+      "id": "M2a",
+      "sources": [
+        {
+          "path": "_Data/reports/narrative_gpu_wave_2026-09-21/ACCEPTANCE_M2A_R16_V1.md",
+          "present_at_audit": true
+        },
+        {
+          "path": "_Data/reports/narrative_gpu_wave_2026-09-21/PILOT_M2A_FOUR_TRACKS_V1.json",
+          "present_at_audit": true
+        },
+        {
+          "path": "_Data/reports/narrative_gpu_wave_2026-09-21/PILOT_FMAS_PROVENANCE_V4.md",
+          "present_at_audit": true
+        },
+        {
+          "path": "_Data/reports/closeout_dispatch_2026-09-21/RESULTS_INTEGRATION_20260921.md",
+          "present_at_audit": true
+        },
+        {
+          "path": "_Data/reports/author_accepted_batch_2026-09-21/REPORT.md",
+          "present_at_audit": true
+        }
+      ]
+    },
+    {
+      "id": "M3",
+      "sources": [
+        {
+          "path": "_Data/reports/lds_nextwave_2026-09-20/ACCEPTANCE_J2_CPU_j2-a1.md",
+          "present_at_audit": true
+        },
+        {
+          "path": "_Data/reports/lds_e1e5_wave1_2026-09-17/ACCEPTANCE_JINXU2_j2-a3_20260917.md",
+          "present_at_audit": true
+        },
+        {
+          "path": "_Data/reports/ddpm_c3_2026-09-14/RESULTS.md",
+          "present_at_audit": true
+        },
+        {
+          "path": "_Data/reports/ddpm_c3_2026-09-14/ACCEPTANCE_DDPM_C3_A.md",
+          "present_at_audit": true
+        },
+        {
+          "path": "_Data/reports/ddpm_c3_2026-09-14/ACCEPTANCE_DDPM_C3_B.md",
+          "present_at_audit": true
+        }
+      ]
+    },
+    {
+      "id": "E_DEL",
+      "sources": [
+        {
+          "path": "_Data/reports/lds_e1e5_wave1_2026-09-17/TASK_XUCHANG3_E2_V1.md",
+          "present_at_audit": true
+        },
+        {
+          "path": "_Data/reports/lds_e1e5_wave1_2026-09-17/E2_THREEHOST_RECOVERY_20260917.md",
+          "present_at_audit": true
+        },
+        {
+          "path": "_Data/reports/lds_nextwave_2026-09-20/ACCEPTANCE_J3_CPU_j3-a1.md",
+          "present_at_audit": true
+        },
+        {
+          "path": "_Data/reports/ba_das_presquare_2026-09-22/ACCEPTANCE_V3_20260922.md",
+          "present_at_audit": true
+        },
+        {
+          "path": "_Data/reports/ba_lds_feasibility_2026-09-20/RESULTS.md",
+          "present_at_audit": true
+        },
+        {
+          "path": "_Data/reports/ba_lds_feasibility_2026-09-20/RUN_ACCEPTANCE_j3-a1.md",
+          "present_at_audit": true
+        }
+      ]
+    },
+    {
+      "id": "E_BENCH",
+      "sources": [
+        {
+          "path": "_Data/results/ba_c2_c10_das_presquare_20260922/inputs/bench_manifest.json",
+          "present_at_audit": true
+        },
+        {
+          "path": "_Data/reports/ba_das_presquare_2026-09-22/TASK_JINXU3_C2_C10_EDEL_V3.md",
+          "present_at_audit": true
+        },
+        {
+          "path": "_Data/reports/ba_das_presquare_2026-09-22/VERIFY_V3_ACCEPTANCE.json",
+          "present_at_audit": true
+        },
+        {
+          "path": "_Data/reports/gpu_wave_five_2026-09-21/ACCEPTANCE_OVERNIGHT_20260922.md",
+          "present_at_audit": true
+        },
+        {
+          "path": "_Data/reports/gpu_wave_five_2026-09-21/ACCEPTANCE_C10_NATIVE_HARD_20260922.md",
+          "present_at_audit": true
+        },
+        {
+          "path": "_Data/reports/ab2_remaining_2026-09-22/DISPATCH.md",
+          "present_at_audit": true
+        },
+        {
+          "path": "_Data/reports/ab2_if_joint_2026-09-21/DESIGN_AND_COMMANDS.md",
+          "present_at_audit": true
+        }
+      ]
+    },
+    {
+      "id": "E_SOURCE",
+      "sources": [
+        {
+          "path": "_Data/results/cfm_if_common200_closeout_20260922/common200_table.tsv",
+          "present_at_audit": true
+        },
+        {
+          "path": "_Data/reports/cfm_if_closeout_2026-09-22/ACCEPTANCE_20260922.md",
+          "present_at_audit": true
+        },
+        {
+          "path": "_Data/reports/cfm_if_closeout_2026-09-22/VERIFY_ACCEPTANCE.json",
+          "present_at_audit": true
+        },
+        {
+          "path": "_Data/reports/cfm_if_closeout_2026-09-22/TASK_JINXU3_CFM_IF_CPU_V1.md",
+          "present_at_audit": true
+        },
+        {
+          "path": "_Data/reports/closeout_dispatch_2026-09-21/ACCEPTANCE_CPU_CLOSEOUT_20260921.md",
+          "present_at_audit": true
+        },
+        {
+          "path": "_Data/reports/inject_2026-09-14/ACCEPTANCE_INJECT_C10_FEAT_T100_CFM_20260917.md",
+          "present_at_audit": true
+        }
+      ]
+    },
+    {
+      "id": "S1_S4",
+      "sources": [
+        {
+          "path": "_Data/reports/lds_nextwave_2026-09-20/ACCEPTANCE_J3_CPU_j3-a1.md",
+          "present_at_audit": true
+        },
+        {
+          "path": "_Data/reports/lds_nextwave_2026-09-20/ACCEPTANCE_J2_CPU_j2-a1.md",
+          "present_at_audit": true
+        },
+        {
+          "path": "_Data/reports/lds_e1e5_wave1_2026-09-17/ACCEPTANCE_JINXU2_j2-a3_20260917.md",
+          "present_at_audit": true
+        }
+      ]
+    },
+    {
+      "id": "B_NEW",
+      "sources": [
+        {
+          "path": "_Data/reports/weighted_dtrak_2026-09-22/TASK_JINXU3_WEIGHTED_DTRAK_C2_V1.md",
+          "present_at_audit": true
+        },
+        {
+          "path": "_Data/reports/weighted_dtrak_2026-09-22/TASK_JINXU3_WEIGHTED_DTRAK_C2_V2.md",
+          "present_at_audit": true
+        },
+        {
+          "path": "_Data/reports/closeout_dispatch_2026-09-21/BASELINES_IMPLEMENTATION_DESIGN_V2.md",
+          "present_at_audit": true
+        },
+        {
+          "path": "_Data/reports/closeout_dispatch_2026-09-21/BASELINE_PARAMETER_AUDIT_V1.md",
+          "present_at_audit": true
+        }
+      ]
+    }
+  ],
+  "included_small_evidence": {
+    "bench_input_properties.json": "path/identity properties only; vectors compacted losslessly",
+    "r16_pilots.json": "independent pilot identities and historical provenance caveats",
+    "cfm_common200_accepted.tsv": "verbatim accepted 13-method table, separate from BA-LDS",
+    "paper_include_graph.json": "uncommented current manuscript include/label graph",
+    "retrieval_common200_properties.json": "original accepted FMAS/IF identity and exact query IDs; MC250, query chunks100"
+  }
+}

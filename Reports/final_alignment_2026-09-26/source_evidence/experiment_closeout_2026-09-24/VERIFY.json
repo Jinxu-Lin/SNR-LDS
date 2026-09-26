@@ -1,0 +1,351 @@
+{
+  "cfm_reviewed500_11": {
+    "status": "accepted",
+    "query_source": "cb0f6c7240e814c17c945abaa53e9dd0633b7bfcdb99ea5a3ab75773ea6c6cd7",
+    "methods": 11,
+    "test_rows": 4400,
+    "metrics": {
+      "das_T100": {
+        "ap_global": 0.21162298963083181,
+        "recall_at_k_global": 0.23157499999999998
+      },
+      "dtrak_T100": {
+        "ap_global": 0.23489718066613244,
+        "recall_at_k_global": 0.2478625
+      },
+      "trak_T100": {
+        "ap_global": 0.07452719977520145,
+        "recall_at_k_global": 0.11815000000000002
+      },
+      "pixel_dot": {
+        "ap_global": 0.004255906435127469,
+        "recall_at_k_global": 0.0009875
+      },
+      "pixel_cos": {
+        "ap_global": 0.012526065614448613,
+        "recall_at_k_global": 0.022075
+      },
+      "clip_dot": {
+        "ap_global": 0.06798116223219697,
+        "recall_at_k_global": 0.08646249999999998
+      },
+      "clip_cos": {
+        "ap_global": 0.12531519421439355,
+        "recall_at_k_global": 0.14285
+      },
+      "grad_dot_T100": {
+        "ap_global": 0.0053324163140871204,
+        "recall_at_k_global": 0.0059125
+      },
+      "grad_cos_T100": {
+        "ap_global": 0.0061871773925184,
+        "recall_at_k_global": 0.010025000000000001
+      },
+      "relative_if_T100": {
+        "ap_global": 0.07259058997005562,
+        "recall_at_k_global": 0.1189875
+      },
+      "renorm_if_T100": {
+        "ap_global": 0.06813276144956255,
+        "recall_at_k_global": 0.1079625
+      }
+    }
+  },
+  "cfm_current13": {
+    "status": "accepted",
+    "test_rows": 5200,
+    "test_queries_per_method": 400,
+    "query_source": "cb0f6c7240e814c17c945abaa53e9dd0633b7bfcdb99ea5a3ab75773ea6c6cd7",
+    "metrics": {
+      "das_T100": {
+        "ap_global": 0.21162298963083181,
+        "recall_at_k_global": 0.23157499999999998
+      },
+      "dtrak_T100": {
+        "ap_global": 0.23489718066613244,
+        "recall_at_k_global": 0.2478625
+      },
+      "trak_T100": {
+        "ap_global": 0.07452719977520145,
+        "recall_at_k_global": 0.11815000000000002
+      },
+      "pixel_dot": {
+        "ap_global": 0.004255906435127469,
+        "recall_at_k_global": 0.0009875
+      },
+      "pixel_cos": {
+        "ap_global": 0.012526065614448613,
+        "recall_at_k_global": 0.022075
+      },
+      "clip_dot": {
+        "ap_global": 0.06798116223219697,
+        "recall_at_k_global": 0.08646249999999998
+      },
+      "clip_cos": {
+        "ap_global": 0.12531519421439355,
+        "recall_at_k_global": 0.14285
+      },
+      "grad_dot_T100": {
+        "ap_global": 0.0053324163140871204,
+        "recall_at_k_global": 0.0059125
+      },
+      "grad_cos_T100": {
+        "ap_global": 0.0061871773925184,
+        "recall_at_k_global": 0.010025000000000001
+      },
+      "relative_if_T100": {
+        "ap_global": 0.07259058997005562,
+        "recall_at_k_global": 0.1189875
+      },
+      "renorm_if_T100": {
+        "ap_global": 0.06813276144956255,
+        "recall_at_k_global": 0.1079625
+      },
+      "ekfac_if": {
+        "ap_global": 0.23498298747389956,
+        "ap_pool": 0.26461568128348706,
+        "recall_at_k_global": 0.260725
+      },
+      "fmas_raw": {
+        "ap_global": 0.25310883645654325,
+        "ap_pool": 0.28332403983969495,
+        "recall_at_k_global": 0.27673749999999997
+      }
+    },
+    "transfer_and_merge": {
+      "execution": "ebbc59f5719af6d612e12576adcc4f674dedbc62",
+      "command": "ssh xuchang3 'cd /tmp/cfa-cfm-test400-xc3 && bash _Data/reports/cfm_test400_2026-09-23/run_host.sh finish'",
+      "exit_code": 0,
+      "verified_test_blocks": 400,
+      "verified_validation_blocks": 100,
+      "master": "/path/to/CFA/_Data/results/cfm_test400_20260923/",
+      "gpu_hours_test": 42.68375261644523,
+      "gpu_hours_validation": 10.68949223485258
+    }
+  },
+  "manifest_tables": [
+    "manifest"
+  ],
+  "c10_feature_registration": {
+    "units": 6,
+    "producer_records_matched": 18,
+    "new_hashes": 0
+  },
+  "c10_tracin_gas": {
+    "status": "accepted",
+    "new_predictions_recomputed": 800,
+    "total_rows": 1200,
+    "valid": 1195,
+    "empty": 1194,
+    "groups": [
+      {
+        "ba": {
+          "mean_percent": -0.01546092796092796,
+          "n_seeds": 3,
+          "sample_sd_percent": 0.026779112760489505
+        },
+        "coverage": {
+          "42": 100,
+          "123": 100,
+          "456": 100
+        },
+        "full_all": {
+          "mean_percent": 5.265689865689866,
+          "n_seeds": 3,
+          "sample_sd_percent": 0.4888546525704661
+        },
+        "full_paired": {
+          "mean_percent": 5.265689865689866,
+          "n_seeds": 3,
+          "sample_sd_percent": 0.4888546525704661
+        },
+        "method": "tracincp_T100",
+        "n_seeds_total": 3,
+        "track": "gen"
+      },
+      {
+        "ba": {
+          "mean_percent": 0,
+          "n_seeds": 3,
+          "sample_sd_percent": 0
+        },
+        "coverage": {
+          "42": 100,
+          "123": 97,
+          "456": 100
+        },
+        "full_all": {
+          "mean_percent": 5.488095238095238,
+          "n_seeds": 3,
+          "sample_sd_percent": 0.2639489509530717
+        },
+        "full_paired": {
+          "mean_percent": 5.504072259355763,
+          "n_seeds": 3,
+          "sample_sd_percent": 0.2364775926116494
+        },
+        "method": "gas_T100",
+        "n_seeds_total": 3,
+        "track": "gen"
+      },
+      {
+        "ba": {
+          "mean_percent": 0,
+          "n_seeds": 3,
+          "sample_sd_percent": 0
+        },
+        "coverage": {
+          "42": 100,
+          "123": 100,
+          "456": 100
+        },
+        "full_all": {
+          "mean_percent": 2.9551739926739917,
+          "n_seeds": 3,
+          "sample_sd_percent": 0.12025315919908608
+        },
+        "full_paired": {
+          "mean_percent": 2.9551739926739917,
+          "n_seeds": 3,
+          "sample_sd_percent": 0.12025315919908608
+        },
+        "method": "tracincp_T100",
+        "n_seeds_total": 3,
+        "track": "val"
+      },
+      {
+        "ba": {
+          "mean_percent": 0,
+          "n_seeds": 3,
+          "sample_sd_percent": 0
+        },
+        "coverage": {
+          "42": 100,
+          "123": 98,
+          "456": 100
+        },
+        "full_all": {
+          "mean_percent": 3.7286782661782656,
+          "n_seeds": 3,
+          "sample_sd_percent": 0.15916794361624745
+        },
+        "full_paired": {
+          "mean_percent": 3.608549500386235,
+          "n_seeds": 3,
+          "sample_sd_percent": 0.3521281521239755
+        },
+        "method": "gas_T100",
+        "n_seeds_total": 3,
+        "track": "val"
+      }
+    ],
+    "standard_score_manifest_records": 8
+  },
+  "journey": {
+    "status": "accepted_features_only",
+    "queries": 100,
+    "trajectory_points": 10,
+    "train_rows": 5000,
+    "scores": false,
+    "gt": false,
+    "new_query_identity": true
+  },
+  "ddpm_noncore": {
+    "status": "partial_not_accepted_as_complete",
+    "panels": [
+      {
+        "line": "cpu",
+        "panel": "cifar2_das_s42_gen",
+        "methods": 4,
+        "rows": 400,
+        "complete": true,
+        "missing_ids": [],
+        "extra_ids": [],
+        "statuses": {
+          "ok": 241,
+          "empty": 106,
+          "fit_failed": 53
+        }
+      },
+      {
+        "line": "cpu",
+        "panel": "cifar2_das_s42_val",
+        "methods": 4,
+        "rows": 400,
+        "complete": false,
+        "missing_ids": [
+          95
+        ],
+        "extra_ids": [
+          100
+        ],
+        "statuses": {
+          "ok": 242,
+          "missing_query": 4,
+          "empty": 117,
+          "fit_failed": 37
+        }
+      },
+      {
+        "line": "shared_gpu",
+        "panel": "cifar2_das_s42_gen",
+        "methods": 5,
+        "rows": 500,
+        "complete": true,
+        "missing_ids": [],
+        "extra_ids": [],
+        "statuses": {
+          "ok": 303,
+          "empty": 145,
+          "fit_failed": 52
+        }
+      },
+      {
+        "line": "shared_gpu",
+        "panel": "cifar2_das_s42_val",
+        "methods": 5,
+        "rows": 500,
+        "complete": false,
+        "missing_ids": [
+          95
+        ],
+        "extra_ids": [
+          100
+        ],
+        "statuses": {
+          "ok": 297,
+          "missing_query": 5,
+          "empty": 140,
+          "fit_failed": 58
+        }
+      }
+    ],
+    "score_matrices_read": 18,
+    "note": "Val query coordinates need correction; do not count partial val BA as valid completion."
+  },
+  "runpod": {
+    "status": "produced_transfer_pending",
+    "remote_verify": "/path/to/CFA/_Data/results/runpod_ddpm_source_20260923/verify.remote.json",
+    "completed_methods": [
+      "fmas_raw",
+      "ekfac_if"
+    ],
+    "val_blocks": 100,
+    "test_blocks": 400,
+    "native_import_complete": false
+  },
+  "old_cpu_bench": {
+    "status": "failed_obsolete_rule",
+    "exit_code": 1,
+    "reason": "native score shape/finite mismatch",
+    "wall_hours": 68.04166063368321,
+    "automatic_retry": false
+  },
+  "j2_retrain": {
+    "status": "ready_no_start_evidence",
+    "checked_host": "anonymous-lab2",
+    "expected_output": "/mnt/hdd/anonymous/CFA_ddpm_retrain_20260923/run",
+    "output_present": false,
+    "worker_observed": false
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "torch_installed": false,
+  "balds_import": "/tmp/balds-public-install-vje1xc5n/venv/lib/python3.12/site-packages/balds/__init__.py",
+  "cwd": "/tmp/balds-public-install-vje1xc5n/independent-evaluation-xj8vkcqb",
+  "summary": {
+    "rule": "paper_twosided_fit_then_native_aggregate_v1",
+    "n_total": 1,
+    "n_valid": 1,
+    "n_failed": 0,
+    "n_empty": 0,
+    "n_constant_prediction": 0,
+    "n_constant_response": 0,
+    "full_lds": 1.0,
+    "ba_lds": 0.938590635448906,
+    "provenance": {
+      "score_space": "das-presquare",
+      "fit_space": "signed_presquare",
+      "aggregation_space": "native_squared",
+      "query_ids": [
+        0
+      ],
+      "n_subsets": 8
+    }
+  },
+  "checks": [
+    "installed wheel outside checkout",
+    "CPU CLI without torch",
+    "DAS signed fit/native square predictions",
+    "fit JSON serialization"
+  ],
+  "final_wheel_validated": true,
+  "final_cli_returncode": 0,
+  "final_summary": {
+    "rule": "paper_twosided_fit_then_native_aggregate_v1",
+    "n_total": 1,
+    "n_valid": 1,
+    "n_failed": 0,
+    "n_empty": 0,
+    "n_constant_prediction": 0,
+    "n_constant_response": 0,
+    "full_lds": 1.0,
+    "ba_lds": 0.938590635448906,
+    "provenance": {
+      "score_space": "das-presquare",
+      "fit_space": "signed_presquare",
+      "aggregation_space": "native_squared",
+      "query_ids": [
+        0
+      ],
+      "n_subsets": 8
+    }
+  },
+  "final_wheel_includes": [
+    "source_scoring",
+    "explicit CFM generation batching"
+  ]
+}
