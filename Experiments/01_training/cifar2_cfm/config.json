@@ -1,0 +1,19 @@
+{
+  "dataset": "cifar2_5k",
+  "process": "cfm",
+  "conditional": false,
+  "seeds": [42, 123, 456],
+  "overrides": {
+    "model.base_ch": 128,
+    "train.epochs": 200,
+    "train.batch_size": 128,
+    "train.lr": 0.0001,
+    "train.weight_decay": 0.000001,
+    "train.warmup_frac": 0.1,
+    "train.dropout": 0.1,
+    "train.hflip": true,
+    "train.checkpoint_fracs": [0.25, 0.5, 0.75]
+  },
+  "generation": {"queries": 100, "ode_steps": 100},
+  "provenance": "Reconstructed current-code recipe; not an original training-time configuration receipt."
+}

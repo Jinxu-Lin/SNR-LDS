@@ -6,8 +6,7 @@ data attribution in image generation models.
 ## Repository layout
 
 - [Codes/](Codes/): current implementation, configurations, tests, and tools.
-- [CodeSnapshots/](CodeSnapshots/): historical code snapshots; use Codes/ for the current version.
-- [Reports/](Reports/): experiment documentation, validation reports, provenance, and supporting scripts.
+- [Experiments/](Experiments/README.md): experiment-oriented protocols, execution scripts, training evidence, and numerical validation.
 
 ## Installation
 
@@ -20,8 +19,8 @@ balds --help
 ```
 
 See [Codes/README.md](Codes/README.md) for optional dependencies, training,
-evaluation, and reproduction commands, and [Reports/README.md](Reports/README.md)
-for report navigation.
+evaluation, and reproduction commands, and [Experiments/README.md](Experiments/README.md)
+for the paper's experiment map and the three-seed CIFAR-2 CFM training dossier.
 
 ## Data and manuscript
 

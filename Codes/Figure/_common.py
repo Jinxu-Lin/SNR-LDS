@@ -2,7 +2,7 @@
 
 Artifact paths follow balds.artifacts.addressing. BALDS_DATA_ROOT selects the
 input root; outputs go under results/paper/figures (overridable by BALDS_FIGURE_ROOT).
-See README.md and Reports/experiments for input identity and execution order.
+See README.md and Experiments for input identity and execution order.
 """
 from __future__ import annotations
 

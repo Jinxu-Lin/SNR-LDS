@@ -39,7 +39,7 @@ export BALDS_DATA_ROOT=/path/to/SNR-LDS/_Data
 
 In a checkout this variable is optional: the default is the adjacent `_Data/`. Outside a checkout the installed package uses `_Data/` under the working directory. `balds-run --data-root PATH` overrides the environment variable. Outputs and input manifests use data-relative addresses. Historical reports retain their original provenance; current commands do not need the original server or checkout.
 
-The finalized artifact inventory and actual copy receipt are in `../Reports/final_alignment_2026-09-26/migration/`. The local `_Data/` now includes the selected paper inputs, accepted results, main checkpoints, features and factors. See `../_Data/README.md` for included and optional families. The large subset/deletion checkpoint banks and external pretrained weight caches are optional; tables can be recomputed from the copied measured responses without retraining those models. Experiment artifacts are not Python package contents or Git source files.
+The current experiment map and evidence are in [Experiments](../Experiments/README.md). The local `_Data/` now includes the selected paper inputs, accepted results, main checkpoints, features and factors. See `../_Data/README.md` for included and optional families. The large subset/deletion checkpoint banks and external pretrained weight caches are optional; tables can be recomputed from the copied measured responses without retraining those models. Experiment artifacts are not Python package contents or Git source files.
 
 For reproduction from raw inputs, acquire CIFAR through Hugging Face datasets; supply ArtBench images under `_Data/raw/artbench-10-imagefolder-split` and configure access to the upstream SD3.5 model using `artbench.base_model`. The imported DAS DDPM platform needs the ordered archive split metadata or its original release archive for `import-das`. CLIP/model downloads respect normal Hugging Face cache and offline settings. The migrated standard DDPM checkpoint embeds its model configuration and weights.
 
@@ -130,10 +130,10 @@ To replay all 13 methods from the migrated score arrays and compare the final re
 
 ```bash
 python tools/replay_retrieval.py --data-root "$BALDS_DATA_ROOT" \
-  --output "$BALDS_DATA_ROOT/results/paper/retrieval" --paper ../Paper
+  --output "$BALDS_DATA_ROOT/results/paper/retrieval"
 ```
 
-`tools/score_retrieval.py` runs tiled FMAS/IF scoring with explicit `--process cfm|ddpm`; `tools/assemble_retrieval.py` handles complete coverage, validation selection and metrics. Use the exact pipeline and archived score replay commands in `../Reports/experiments/E_SOURCE.md`; partial common200 results are not the final test set.
+`tools/score_retrieval.py` runs tiled FMAS/IF scoring with explicit `--process cfm|ddpm`; `tools/assemble_retrieval.py` handles complete coverage, validation selection and metrics. Use the exact pipeline and archived score replay commands in `../Experiments/07_source_retrieval/README.md`; partial common200 results are not the final test set.
 
 ## R16 variance analysis
 
@@ -146,7 +146,7 @@ balds-repeat status --output results/repeatability/r16
 balds-repeat summarize --output results/repeatability/r16 --pilot-manifest pilots.json
 ```
 
-Run repeat IDs 0 through 15 independently. Pilot-manifest keys are `fmas_raw`/`dtrak_T100`, each containing `gen`/`val` paths to `(5000,16)` arrays in recipe query order. Paths resolve relative to the manifest. Final VarRatio is `sum(sample variance) / sum(repeat mean²)` per region/query. The final panels use pilot bands and absolute-repeat-mean deciles; retired repeat-SNR calibration is not emitted. See `../Reports/experiments/M2A_REPEATABILITY.md` for archived R16 replay and full preparation.
+Run repeat IDs 0 through 15 independently. Pilot-manifest keys are `fmas_raw`/`dtrak_T100`, each containing `gen`/`val` paths to `(5000,16)` arrays in recipe query order. Paths resolve relative to the manifest. Final VarRatio is `sum(sample variance) / sum(repeat mean²)` per region/query. The final panels use pilot bands and absolute-repeat-mean deciles; retired repeat-SNR calibration is not emitted. See `../Experiments/03_sampling_noise/README.md` for archived R16 replay and full preparation.
 
 ## Validation and architecture
 
@@ -155,4 +155,4 @@ python tools/check_layers.py
 python -m pytest tests -q
 ```
 
-CPU tests cover SNR numerics, DAS readouts, global choice, RNG/identity, score kernels, damping, subset responses, storage and the retained workflow adapters. They do not rerun GPU training. `ARCHITECTURE.md` describes the package boundaries. Current copy, numerical readback and validation receipts live under `../Reports/final_alignment_2026-09-26/`; older reports describe their dated versions.
+CPU tests cover SNR numerics, DAS readouts, global choice, RNG/identity, score kernels, damping, subset responses, storage and the retained workflow adapters. They do not rerun GPU training. `ARCHITECTURE.md` describes the package boundaries. Numerical readback and validation evidence are indexed in `../Experiments/validation/README.md`.

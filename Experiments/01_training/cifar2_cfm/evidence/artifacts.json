@@ -1,0 +1,208 @@
+{
+  "kind": "inspection_of_existing_artifacts",
+  "not_a_training_receipt": true,
+  "paths_relative_to": "external_data_root",
+  "records": [
+    {
+      "seed": 42,
+      "path": "checkpoints/cifar2_5k/cfm_uncond/seed_42/final.pt",
+      "exists": true,
+      "bytes": 143078003,
+      "sha256": "e28e77e210e777aa3aa199b531be49e301111502f9deb73a036cf3f6344abc7c",
+      "metadata": {
+        "step": 7812,
+        "base_ch": 128,
+        "num_classes": null,
+        "model_type": "cfm",
+        "conditional": false,
+        "p_uncond": null
+      }
+    },
+    {
+      "seed": 42,
+      "path": "checkpoints/cifar2_5k/cfm_uncond/seed_42/step_1953.pt",
+      "exists": true,
+      "bytes": 143098635,
+      "sha256": "ae71c527624282177a05dd7b1ff5aa48d09239a68b725f25579169786f4dbe85",
+      "metadata": {
+        "step": 1953,
+        "base_ch": 128,
+        "num_classes": null,
+        "model_type": "cfm",
+        "conditional": false,
+        "p_uncond": null
+      }
+    },
+    {
+      "seed": 42,
+      "path": "checkpoints/cifar2_5k/cfm_uncond/seed_42/step_3906.pt",
+      "exists": true,
+      "bytes": 143098635,
+      "sha256": "3545ee784d44771bfdaa78678c0e25d09b47effe061bb0a418e7fc0a93d1ed0e",
+      "metadata": {
+        "step": 3906,
+        "base_ch": 128,
+        "num_classes": null,
+        "model_type": "cfm",
+        "conditional": false,
+        "p_uncond": null
+      }
+    },
+    {
+      "seed": 42,
+      "path": "checkpoints/cifar2_5k/cfm_uncond/seed_42/step_5859.pt",
+      "exists": true,
+      "bytes": 143098635,
+      "sha256": "a5fa0bacb948cdd8397efc997454ef4adc7bcac97ed5a02912a49368a7d06315",
+      "metadata": {
+        "step": 5859,
+        "base_ch": 128,
+        "num_classes": null,
+        "model_type": "cfm",
+        "conditional": false,
+        "p_uncond": null
+      }
+    },
+    {
+      "seed": 42,
+      "path": "checkpoints/cifar2_5k/cfm_uncond/seed_42/loss_history.json",
+      "exists": true,
+      "bytes": 817,
+      "sha256": "9ed5f8fc14b84ce1b575e9e9cb68ede42a4d621e8a9373d1ede599aacfa41c30"
+    },
+    {
+      "seed": 123,
+      "path": "checkpoints/cifar2_5k/cfm_uncond/seed_123/final.pt",
+      "exists": true,
+      "bytes": 143078003,
+      "sha256": "1a4461c18fe29426316dceb6c6869e91a6613bd33d67aa5bbcd8bdeb4e815d73",
+      "metadata": {
+        "step": 7812,
+        "base_ch": 128,
+        "num_classes": null,
+        "model_type": "cfm",
+        "conditional": false,
+        "p_uncond": null
+      }
+    },
+    {
+      "seed": 123,
+      "path": "checkpoints/cifar2_5k/cfm_uncond/seed_123/step_1953.pt",
+      "exists": true,
+      "bytes": 143098635,
+      "sha256": "489ba8d3bb264ecc80561f9bdf59ca5807ca5f8ef0954f9d470eafef9c26b4ce",
+      "metadata": {
+        "step": 1953,
+        "base_ch": 128,
+        "num_classes": null,
+        "model_type": "cfm",
+        "conditional": false,
+        "p_uncond": null
+      }
+    },
+    {
+      "seed": 123,
+      "path": "checkpoints/cifar2_5k/cfm_uncond/seed_123/step_3906.pt",
+      "exists": true,
+      "bytes": 143098635,
+      "sha256": "c73afc9a42990ca01f11101ba9f3f64fee2c7a3ab81dbfc5c826236a33d992a8",
+      "metadata": {
+        "step": 3906,
+        "base_ch": 128,
+        "num_classes": null,
+        "model_type": "cfm",
+        "conditional": false,
+        "p_uncond": null
+      }
+    },
+    {
+      "seed": 123,
+      "path": "checkpoints/cifar2_5k/cfm_uncond/seed_123/step_5859.pt",
+      "exists": true,
+      "bytes": 143098635,
+      "sha256": "9e018a7f1aa72d58933141b93c0f6037e2bb27882fb34c8f320be1613b217322",
+      "metadata": {
+        "step": 5859,
+        "base_ch": 128,
+        "num_classes": null,
+        "model_type": "cfm",
+        "conditional": false,
+        "p_uncond": null
+      }
+    },
+    {
+      "seed": 123,
+      "path": "checkpoints/cifar2_5k/cfm_uncond/seed_123/loss_history.json",
+      "exists": true,
+      "bytes": 815,
+      "sha256": "32363b0987a156c78ee9b3a3e45b38cfb45683edabb52feb6bab2d0786a3f240"
+    },
+    {
+      "seed": 456,
+      "path": "checkpoints/cifar2_5k/cfm_uncond/seed_456/final.pt",
+      "exists": true,
+      "bytes": 143078003,
+      "sha256": "acc8ba5f899bb5793ce301656eb39fd08108ac2c7cfdb909e3c8794c2fec9272",
+      "metadata": {
+        "step": 7812,
+        "base_ch": 128,
+        "num_classes": null,
+        "model_type": "cfm",
+        "conditional": false,
+        "p_uncond": null
+      }
+    },
+    {
+      "seed": 456,
+      "path": "checkpoints/cifar2_5k/cfm_uncond/seed_456/step_1953.pt",
+      "exists": true,
+      "bytes": 143098635,
+      "sha256": "a3b475c3a97ce868e67b47e2228837bc5e10ff8386eb09ae88fe1515a254b88e",
+      "metadata": {
+        "step": 1953,
+        "base_ch": 128,
+        "num_classes": null,
+        "model_type": "cfm",
+        "conditional": false,
+        "p_uncond": null
+      }
+    },
+    {
+      "seed": 456,
+      "path": "checkpoints/cifar2_5k/cfm_uncond/seed_456/step_3906.pt",
+      "exists": true,
+      "bytes": 143098635,
+      "sha256": "97cc19bdc37c82a98988970525862bf631cac936f2e8c0f40571e0d5159187ad",
+      "metadata": {
+        "step": 3906,
+        "base_ch": 128,
+        "num_classes": null,
+        "model_type": "cfm",
+        "conditional": false,
+        "p_uncond": null
+      }
+    },
+    {
+      "seed": 456,
+      "path": "checkpoints/cifar2_5k/cfm_uncond/seed_456/step_5859.pt",
+      "exists": true,
+      "bytes": 143098635,
+      "sha256": "3351ee2bcacf190902702fca6723d562d6b524712789be129982bb68cb00df1f",
+      "metadata": {
+        "step": 5859,
+        "base_ch": 128,
+        "num_classes": null,
+        "model_type": "cfm",
+        "conditional": false,
+        "p_uncond": null
+      }
+    },
+    {
+      "seed": 456,
+      "path": "checkpoints/cifar2_5k/cfm_uncond/seed_456/loss_history.json",
+      "exists": true,
+      "bytes": 815,
+      "sha256": "1c338466b22f7c5522b888d5223a8be935e35d6e5067a57885af704d5f8378fb"
+    }
+  ]
+}

@@ -1,6 +1,8 @@
 # Data and manuscript stay local, including copies in report archives.
 /_Data/
 /Paper/
+/_LocalArchive/
+/Experiments/**/runs/
 /Reports/**/Paper/
 /Reports/**/Figures/
 /Reports/**/render/
