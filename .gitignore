@@ -13,6 +13,7 @@
 /Reports/**/*.pdf
 /Reports/**/*.png
 /Reports/**/*.patch
+/Rebuttal/**
 
 # Model weights, features, arrays, and dataset artifacts.
 *.pt
